@@ -2656,7 +2656,7 @@ def bot(op):
                                             pass
                 return
         if op.type == 19:
-            if Zmid in op.param3:
+            if Jmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -2668,19 +2668,19 @@ def bot(op):
                 else:
                     wait["blacklist"][op.param2] = True
                     try:
-                        sw.kickoutFromGroup(op.param1,[op.param2])
-                        sw.inviteIntoGroup(op.param1,[op.param3])
-                        boy.acceptGroupInvitation(op.param1)
+                        k2.kickoutFromGroup(op.param1,[op.param2])
+                        k2.inviteIntoGroup(op.param1,[op.param3])
+                        k10.acceptGroupInvitation(op.param1)
                     except:
                         try:
-                            sw.kickoutFromGroup(op.param1,[op.param2])
-                            sw.inviteIntoGroup(op.param1,[op.param3])
-                            boy.acceptGroupInvitation(op.param1)
+                            k3.kickoutFromGroup(op.param1,[op.param2])
+                            k3.inviteIntoGroup(op.param1,[op.param3])
+                            k10.acceptGroupInvitation(op.param1)
                         except:
                             try:
-                                sw.kickoutFromGroup(op.param1,[op.param2])
-                                sw.inviteIntoGroup(op.param1,[op.param3])
-                                boy.acceptGroupInvitation(op.param1)
+                                k4.kickoutFromGroup(op.param1,[op.param2])
+                                k4.inviteIntoGroup(op.param1,[op.param3])
+                                k10.acceptGroupInvitation(op.param1)
                             except:
                                 try:
                                     G = random.choice(ABC).getGroup(op.param1)
@@ -2698,12 +2698,12 @@ def bot(op):
                                     try:
                                         k2.kickoutFromGroup(op.param1,[op.param2])
                                         k2.inviteIntoGroup(op.param1,[op.param3])
-                                        boy.acceptGroupInvitation(op.param1)
+                                        k10.acceptGroupInvitation(op.param1)
                                     except:
                                         try:
                                             k3.kickoutFromGroup(op.param1,[op.param2])
                                             k3.inviteIntoGroup(op.param1,[op.param3])
-                                            boy.acceptGroupInvitation(op.param1)
+                                            k10.acceptGroupInvitation(op.param1)
                                         except:
                                             pass
                 return
@@ -3095,8 +3095,8 @@ def bot(op):
                         if mention ['M'] in Bots:
                            boy.sendMessage(msg.to, wait["Respontag"])
                            boy.sendMessage(msg._from, "Respon Terkirim\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
-                           boy.sendImageWithURL(msg._from,image)
-                           boy.sendMessage(msg._from, None, contentMetadata={"STKID":"51626504","STKPKGID":"11538","STKVER":"1"}, contentType=7)
+                           boy.sendImageWithURL(msg.to,image)
+                           boy.sendMessage(msg.to, None, contentMetadata={"STKID":"51626504","STKPKGID":"11538","STKVER":"1"}, contentType=7)
                            break
                if 'MENTION' in msg.contentMetadata.keys() != None:
                  if wait["Mentiongift"] == True:
@@ -3186,7 +3186,7 @@ def bot(op):
                         contact = boy.getContact(msg.contentMetadata["mid"])
                         path = boy.getContact(msg.contentMetadata["mid"]).picturePath
                         image = 'http://dl.profile.line.naver.jp'+path
-                        boy.sendMessage(msg.to,"⏩ Nama : " + msg.contentMetadata["displayName"] + "\n⏩ MID : " + msg.contentMetadata["mid"] + "\n⏩ Status : " + contact.statusMessage + "\n⏩ Picture URL : http://dl.profile.line-cdn.net/" + contact.pictureStatus)
+                        boy.sendMessage(msg.to,"❂➣ Nama : " + msg.contentMetadata["displayName"] + "\n❂➣ MID : " + msg.contentMetadata["mid"] + "\n❂➣ Status : " + contact.statusMessage + "\n❂➣ Picture URL : http://dl.profile.line-cdn.net/" + contact.pictureStatus)
                         boy.sendImageWithURL(msg.to, image)
 #===========ADD BOT============#
                if msg.contentType == 13:
@@ -3422,8 +3422,7 @@ def bot(op):
                                boy.sendMessage(msg.to, "Help \nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                                boy.sendMessage(msg.to,str(helpMessage))
                                boy.sendMessage(msg.to,str(helpMessage1))
-                               boy.sendMessage(msg.to,"╔═══════════════════════╗\n◄]·✪line.me/R/ti/p/~limbizkids✪·[► \n╚═══════════════════════╝")
-                                                                                       
+                                                                                   
                         if cmd == "self on":
                             if msg._from in admin:
                                 wait["selfbot"] = True
@@ -3442,8 +3441,7 @@ def bot(op):
                                helpMessage2 = help2()
                                boy.sendMessage(msg.to, "Help Bots\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                                boy.sendMessage(msg.to, str(helpMessage2))
-                               boy.sendMessage(msg.to,"╔═══════════════════════╗\n◄]·✪line.me/R/ti/p/~limbizkids✪·[► \n ╚═══════════════════════╝")
-                                            
+                                         
                         elif cmd == "help bot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
@@ -3452,7 +3450,6 @@ def bot(op):
                                helpMessage3 = helpbot()
                                boy.sendMessage(msg.to, "Help Bots\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                                boy.sendMessage(msg.to, str(helpMessage3))
-                               boy.sendMessage(msg.to,"╔═══════════════════════╗\n◄]·✪line.me/R/ti/p/~limbizkids✪·[► \n ╚═══════════════════════╝")
                                
                                
                         elif cmd == "meme":
@@ -3463,8 +3460,7 @@ def bot(op):
                                helpMessage4 = infomeme()
                                boy.sendMessage(msg.to, "Help Fun\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                                boy.sendMessage(msg.to, str(helpMessage4))
-                               boy.sendMessage(msg.to,"╔═══════════════════════╗\n◄]·✪line.me/R/ti/p/~limbizkids✪·[► \n╚═══════════════════════╝")
-
+                               
                         if cmd == "unsend on":
                             if msg._from in admin:
                                 wait["unsend"] = True
@@ -3524,7 +3520,6 @@ def bot(op):
                                 if msg.to in ghost: md+="┃┃🍁 ✔️ Ghost「ON」\n"
                                 else: md+="┃┃🍁 ✖ Ghost「OFF」\n"                                                
                                 boy.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")
-                                boy.sendMessage(msg.to,"╔═══════════════════════╗\n ◄]·✪line.me/R/ti/p/~limbizkids✪·[► \n╚═══════════════════════╝")
                                 
                         elif cmd == "status translate":
                           if wait["selfbot"] == True:
@@ -3543,8 +3538,7 @@ def bot(op):
                                 if msg.to in translatear: md+="┃┃🍁 ✔️ Arab「ON」\n"
                                 else: md+="┃┃🍁 ✖ Arab「OFF」\n"       
                                 boy.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")
-                                boy.sendMessage(msg.to,"╔═══════════════════════╗\n ◄]·✪line.me/R/ti/p/~limbizkids✪·[► \n╚═══════════════════════╝")                                
-
+                                
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
                                 boy.sendMessage(msg.to,"Creator Bot") 
@@ -3753,8 +3747,7 @@ def bot(op):
                                eltime = time.time() - mulai
                                bot = "Aktif " +waktu(eltime)
                                boy.sendMessage(msg.to,bot)
-                               #boy.sendMessage(msg.to,"╔═══════════════════════╗\n ◄]·✪line.me/R/ti/p/~limbizkids✪·[► \n╚═══════════════════════╝")
-                            
+                               
                         elif cmd == "ginfo":
                           if msg._from in admin:
                             try:
@@ -3771,7 +3764,7 @@ def bot(op):
                                     gTicket = "https://line.me/R/ti/g/{}".format(str(boy.reissueGroupTicket(G.id)))
                                 timeCreated = []
                                 timeCreated.append(time.strftime("%d-%m-%Y [ %H:%M:%S ]", time.localtime(int(G.createdTime) / 1000)))
-                                boy.sendMessage(msg.to, "❧ BOT Grup Info\n\n ❧ Nama Group : {}".format(G.name)+ "\n🐚 ID Group : {}".format(G.id)+ "\n🐚 Pembuat : {}".format(G.creator.displayName)+ "\n🐚 Waktu Dibuat : {}".format(str(timeCreated))+ "\n🐚 Jumlah Member : {}".format(str(len(G.members)))+ "\n🐚 Jumlah Pending : {}".format(gPending)+ "\n🐚 Group Qr : {}".format(gQr)+ "\n🐚 Group Ticket : {}".format(gTicket))
+                                boy.sendMessage(msg.to, "❂➣ BOT Grup Info\n\n❂➣ Nama Group : {}".format(G.name)+ "\n❂➣ ID Group : {}".format(G.id)+ "\n❂➣ Pembuat : {}".format(G.creator.displayName)+ "\n❂➣ Waktu Dibuat : {}".format(str(timeCreated))+ "\n❂➣ Jumlah Member : {}".format(str(len(G.members)))+ "\n❂➣ Jumlah Pending : {}".format(gPending)+ "\n❂➣ Group Qr : {}".format(gQr)+ "\n❂➣ Group Ticket : {}".format(gTicket))
                                 boy.sendMessage(msg.to, None, contentMetadata={'mid': G.creator.mid}, contentType=13)
                                 boy.sendImageWithURL(msg.to, 'http://dl.profile.line-cdn.net/'+G.pictureStatus)
                             except Exception as e:
@@ -3802,15 +3795,15 @@ def bot(op):
                                     gTicket = "https://line.me/R/ti/g/{}".format(str(boy.reissueGroupTicket(G.id)))
                                 timeCreated = []
                                 timeCreated.append(time.strftime("%d-%m-%Y [ %H:%M:%S ]", time.localtime(int(G.createdTime) / 1000)))
-                                ret_ += "⏩ BOT Grup Info\n"
-                                ret_ += "\n⏩ Name : {}".format(G.name)
-                                ret_ += "\n⏩ ID : {}".format(G.id)
-                                ret_ += "\n⏩ Creator : {}".format(gCreator)
-                                ret_ += "\n⏩ Created Time : {}".format(str(timeCreated))
-                                ret_ += "\n⏩ Member : {}".format(str(len(G.members)))
-                                ret_ += "\n⏩ Pending : {}".format(gPending)
-                                ret_ += "\n⏩ Qr : {}".format(gQr)
-                                ret_ += "\n⏩ Ticket : {}".format(gTicket)
+                                ret_ += "❂➣ BOT Grup Info\n"
+                                ret_ += "\n❂➣ Name : {}".format(G.name)
+                                ret_ += "\n❂➣ ID : {}".format(G.id)
+                                ret_ += "\n❂➣ Creator : {}".format(gCreator)
+                                ret_ += "\n❂➣ Created Time : {}".format(str(timeCreated))
+                                ret_ += "\n❂➣ Member : {}".format(str(len(G.members)))
+                                ret_ += "\n❂➣ Pending : {}".format(gPending)
+                                ret_ += "\n❂➣ Qr : {}".format(gQr)
+                                ret_ += "\n❂➣ Ticket : {}".format(gTicket)
                                 ret_ += ""
                                 boy.sendMessage(to, str(ret_))
                             except:
@@ -3829,8 +3822,8 @@ def bot(op):
                                 ret_ = ""
                                 for mem in G.members:
                                     no += 1
-                                    ret_ += "\n " "⏩ "+ str(no) + ". " + mem.displayName
-                                boy.sendMessage(to,"⏩ Group Name : [ " + str(G.name) + " ]\n\n   [ List Member ]\n" + ret_ + "\n\n「Total %i Members」" % len(G.members))
+                                    ret_ += "\n " "❂➣ "+ str(no) + ". " + mem.displayName
+                                boy.sendMessage(to,"❂➣ Group Name : [ " + str(G.name) + " ]\n\n   [ List Member ]\n" + ret_ + "\n\n「Total %i Members」" % len(G.members))
                             except: 
                                 pass
 
