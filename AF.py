@@ -8,7 +8,6 @@ import pytz, datetime, pafy, time, timeit, random, sys, ast, re, os, json, subpr
 from datetime import timedelta, date
 from datetime import datetime
 from bs4 import BeautifulSoup
-#import pyimgflip
 from googletrans import Translator
 import youtube_dl
 
@@ -22,65 +21,64 @@ botStart = time.time()
 mulai = time.time()
 tokenOpen = codecs.open("boyfira.json","r","utf-8")
 token = json.load(tokenOpen)
-
    
-#boy = LineClient()
-boy = LineClient(token["boy"])
+boy = LineClient()
+#boy = LineClient(token["boy"])
 channel = LineChannel(boy,boy.server.CHANNEL_ID['LINE_TIMELINE'])
 boy.log("Auth Token : " + str(boy.authToken))
 
-#k1 = LineClient()
-K1 = LineClient(token["k1"])
+k1 = LineClient()
+#K1 = LineClient(token["k1"])
 channel = LineChannel(k1,k1.server.CHANNEL_ID['LINE_TIMELINE'])
 k1.log("Auth Token : " + str(k1.authToken))
 
-#k2 = LineClient()
-K2 = LineClient(token["k2"])
+k2 = LineClient()
+#K2 = LineClient(token["k2"])
 channel = LineChannel(k2,k2.server.CHANNEL_ID['LINE_TIMELINE'])
 k2.log("Auth Token : " + str(k2.authToken))
 
-#k3 = LineClient()
-K3 = LineClient(token["k3"])
+k3 = LineClient()
+#K3 = LineClient(token["k3"])
 channel = LineChannel(k3,k3.server.CHANNEL_ID['LINE_TIMELINE'])
 k3.log("Auth Token : " + str(k3.authToken))
 
-#k4 = LineClient()
-K4 = LineClient(token["k4"])
+k4 = LineClient()
+#K4 = LineClient(token["k4"])
 channel = LineChannel(k4,k4.server.CHANNEL_ID['LINE_TIMELINE'])
 k4.log("Auth Token : " + str(k4.authToken))
 
-#k5 = LineClient()
-K5 = LineClient(token["k5"])
+k5 = LineClient()
+#K5 = LineClient(token["k5"])
 channel = LineChannel(k5,k5.server.CHANNEL_ID['LINE_TIMELINE'])
 k5.log("Auth Token : " + str(k5.authToken))
 
-#k6 = LineClient()
-K6 = LineClient(token["k6"])
+k6 = LineClient()
+#K6 = LineClient(token["k6"])
 channel = LineChannel(k6,k6.server.CHANNEL_ID['LINE_TIMELINE'])
 k6.log("Auth Token : " + str(k6.authToken))
 
-#k7 = LineClient()
-K7 = LineClient(token["k7"])
+k7 = LineClient()
+#K7 = LineClient(token["k7"])
 channel = LineChannel(k7,k7.server.CHANNEL_ID['LINE_TIMELINE'])
 k7.log("Auth Token : " + str(k7.authToken))
 
-#k8 = LineClient()
-K8 = LineClient(token["k8"])
+k8 = LineClient()
+#K8 = LineClient(token["k8"])
 channel = LineChannel(k8,k8.server.CHANNEL_ID['LINE_TIMELINE'])
 k8.log("Auth Token : " + str(k8.authToken))
 
-#k9 = LineClient()
-K9 = LineClient(token["k9"])
+k9 = LineClient()
+#K9 = LineClient(token["k9"])
 channel = LineChannel(k9,k9.server.CHANNEL_ID['LINE_TIMELINE'])
 k9.log("Auth Token : " + str(k9.authToken))
 
-#k10 = LineClient()
-K10 = LineClient(token["k10"])
-channel = Linehannel(k10,k10.server.CHANNEL_ID['LINE_TIMELINE'])
+k10 = LineClient()
+#K10 = LineClient(token["k10"])
+channel = LineChannel(k10,k10.server.CHANNEL_ID['LINE_TIMELINE'])
 k10.log("Auth Token : " + str(k10.authToken))
 
-#sw = LineClient()
-sw = LineClient(token["sw"])
+sw = LineClient()
+#sw = LineClient(token["sw"])
 sw.log("Auth Token : " + str(sw.authToken))
 
 #ubah mid di dalem admin,owner,creator.json dengan mid kalian
@@ -95,7 +93,7 @@ poll = LinePoll(k7)
 poll = LinePoll(k8)
 poll = LinePoll(k9)
 poll = LinePoll(k10)
-call = boy+k1+k2+k3+k4+k5+k6+k7+k8+k9+k10
+call = boy
 creator = ["ue6d8f9ef8f820fad9c65bbb5d1ec714b"]
 owner = ["ue6d8f9ef8f820fad9c65bbb5d1ec714b"]
 admin = ["ue6d8f9ef8f820fad9c65bbb5d1ec714b"]
