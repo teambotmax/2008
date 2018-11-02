@@ -831,12 +831,14 @@ def bot(op):
         if op.type == 0:
             return
         if op.type == 5:
-              if wait["autoAdd"] == True:
-                  boy.findAndAddContactsByMid(op.param1)
-                  sendMention(op.param1, op.param1, "Haii ", ", terimakasih sudah add saya")
-                  boy.sendText(op.param1, wait["message"])
-                  boy.sendContact(op.param1, "u054c3692f90083a5b1ad23e4a663f676")
-                                                
+            if wait["autoAdd"] == True:
+                if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                    if (wait["message"] in [" "," ","\n",None]):
+                        pass
+                    else:
+                        boy.sendText(op.param1, wait["message"])
+                        boy.blockContact(op.param1)
+                          
         if op.type == 13:
             if mid in op.param3:
                 if wait["autoLeave"] == True:
@@ -4351,7 +4353,16 @@ def bot(op):
                                 k8.leaveGroup(msg.to)
                                 k9.leaveGroup(msg.to)
                                 k10.leaveGroup(msg.to)
-                                
+                           
+                        elif cmd == "js":
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                                try:
+                                    ginfo = boy.getGroup(msg.to)
+                                    boy.inviteIntoGroup(msg.to, [Zmid])
+                                    boy.sendMessage(msg.to,"Grup 「"+str(ginfo.name)+"」 Max Dari JS")
+                                except:
+                                    pass              
 
                         elif cmd.startswith("pulang"):
                             if msg._from in admin:
@@ -5200,7 +5211,7 @@ def bot(op):
                                          msgs = "Protect invite sudah tidak aktif"
                                     boy.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)                                                                      
 
-                        elif 'Antijs ' in msg.text:
+                        elif 'Blockjs ' in msg.text:
                            if msg._from in admin:
                               spl = msg.text.replace('Antijs ','')
                               if spl == 'on':
@@ -5347,12 +5358,12 @@ def bot(op):
                                        except:
                                            pass
                         
-                        elif cmd == "Officeboy":
+                        elif cmd == "Masmax":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 if msg.toType == 2:
                                   if wait["Kickallmember"]:
-                                    _name = msg.text.replace("Officeboy","")
+                                    _name = msg.text.replace("Masmax","")
                                     gs = boy.getGroup(msg.to)
                                     targets = []
                                     for g in gs.members:
@@ -5470,7 +5481,7 @@ def bot(op):
 
                         elif cmd == "admin:delete" or text.lower() == 'admin:delete':
                             if msg._from in creator:
-                                wait["delladmin"] = True
+                                wait["delladmin"] = False
                                 boy.sendMessage(msg.to,"Kirim kontaknya...")
 
                         elif cmd == "staff:on" or text.lower() == 'staff:on':
@@ -5480,7 +5491,7 @@ def bot(op):
 
                         elif cmd == "staff:delete" or text.lower() == 'staff:delete':
                             if msg._from in admin:
-                                wait["dellstaff"] = True
+                                wait["dellstaff"] = False
                                 boy.sendMessage(msg.to,"Kirim kontaknya...")
 
                         elif cmd == "bot:on" or text.lower() == 'bot:on':
@@ -5490,7 +5501,7 @@ def bot(op):
 
                         elif cmd == "bot:delete" or text.lower() == 'bot:delete':
                             if msg._from in admin:
-                                wait["dellbots"] = True
+                                wait["dellbots"] = False
                                 boy.sendMessage(msg.to,"Kirim kontaknya...")
 
                         elif cmd == "refresh" or text.lower() == 'refresh':
@@ -5510,19 +5521,19 @@ def bot(op):
                         elif cmd == "contact admin" or text.lower() == 'contact admin':
                                 ma = ""
                                 for i in admin:
-                                    ma = k1.getContact(i)
+                                    ma = boy.getContact(i)
                                     boy.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
                         elif cmd == "contact staff" or text.lower() == 'contact staff':
                                 ma = ""
                                 for i in staff:
-                                    ma = k1.getContact(i)
+                                    ma = boy.getContact(i)
                                     boy.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
                         elif cmd == "contact bot" or text.lower() == 'contact bot':
                                 ma = ""
                                 for i in Bots:
-                                    ma = k1.getContact(i)
+                                    ma = boy.getContact(i)
                                     boy.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
 #===========COMMAND ON OFF============#
@@ -5884,34 +5895,34 @@ def bot(op):
                                      boy.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group1 = k1.findGroupByTicket(ticket_id)
                                      k1.acceptGroupInvitationByTicket(group1.id,ticket_id)
-                                     k1.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     k1.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 1 : %s" % str(group.name))
                                      group2 = k2.findGroupByTicket(ticket_id)
                                      k2.acceptGroupInvitationByTicket(group2.id,ticket_id)
-                                     k2.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     k2.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 2 : %s" % str(group.name))
                                      group3 = k3.findGroupByTicket(ticket_id)
                                      k3.acceptGroupInvitationByTicket(group3.id,ticket_id)
-                                     k3.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     k3.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 3 : %s" % str(group.name))
                                      group4 = k4.findGroupByTicket(ticket_id)
                                      k4.acceptGroupInvitationByTicket(group4.id,ticket_id)
-                                     k4.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     k4.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 4 : %s" % str(group.name))
                                      group5 = k5.findGroupByTicket(ticket_id)
                                      k5.acceptGroupInvitationByTicket(group5.id,ticket_id)
-                                     k5.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     k5.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 5 : %s" % str(group.name))
                                      group6 = k6.findGroupByTicket(ticket_id)
                                      k6.acceptGroupInvitationByTicket(group6.id,ticket_id)
-                                     k6.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     k6.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 6 : %s" % str(group.name))
                                      group7 = k7.findGroupByTicket(ticket_id)
                                      k7.acceptGroupInvitationByTicket(group7.id,ticket_id)
-                                     k7.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     k7.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 7 : %s" % str(group.name))
                                      group8 = k8.findGroupByTicket(ticket_id)
                                      k8.acceptGroupInvitationByTicket(group8.id,ticket_id)
-                                     k8.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     k8.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 8 : %s" % str(group.name))
                                      group9 = k9.findGroupByTicket(ticket_id)
                                      k9.acceptGroupInvitationByTicket(group9.id,ticket_id)
-                                     k9.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     k9.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 9 : %s" % str(group.name))
                                      group10 = k10.findGroupByTicket(ticket_id)
                                      k10.acceptGroupInvitationByTicket(group10.id,ticket_id)
-                                     k10.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     k10.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 10 : %s" % str(group.name))
 
 
     except Exception as error:
