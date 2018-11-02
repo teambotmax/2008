@@ -415,7 +415,7 @@ def sendMention(to, mid, firstmessage):
         timeNow = datetime.now(tz=tz)
         eltime = time.time() - mulai
         bot = runtime(eltime)
-        text += mention+"◐ Jam : "+datetime.strftime(timeNow,'%H:%M:%S')+" Wib\n🐚 Group : "+str(len(gid))+"\n🐚 Teman : "+str(len(teman))+"\n🐚 Expired : In "+hari+"\n🐚 Version : Python3\n🐚 Tanggal : "+datetime.strftime(timeNow,'%Y-%m-%d')+"\n🐚 Runtime : \n • "+bot
+        text += mention+"◐ Jam : "+datetime.strftime(timeNow,'%H:%M:%S')+" Wib\n🤖 Group : "+str(len(gid))+"\n🤖 Teman : "+str(len(teman))+"\n🤖 Expired : In "+hari+"\n🤖 Version: SELFBOT-BY:MAX\n🤖 Tanggal : "+datetime.strftime(timeNow,'%Y-%m-%d')+"\n🤖 Runtime : \n • "+bot
         boy.sendMessage(to, text, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         boy.sendMessage(to, "[ INFO ] Error :\n" + str(error))
@@ -444,8 +444,8 @@ def help():
                   "╠❂➣ " + key + "Me\n" + \
                   "╠❂➣ " + key + "Mymid\n" + \
                   "╠❂➣ " + key + "Mid「@」\n" + \
-                  "╠❂➣ " + key + "Info 「@」\n" + \
-                  "╠❂➣ " + key + "Kick1 「@」\n" + \
+                  "╠❂➣ " + key + "Info「@」\n" + \
+                  "╠❂➣ " + key + "Kick「@」\n" + \
                   "╠❂➣ " + key + "Mybot\n" + \
                   "╠❂➣ " + key + "Status\n" + \
                   "╠❂➣ " + key + "Status translate\n" + \
@@ -457,7 +457,8 @@ def help():
                   "╠❂➣ " + key + "Speed/Sp\n" + \
                   "╠❂➣ " + key + "Sprespon\n" + \
                   "╠❂➣ " + key + "Mentionall/ Ned/Tagall\n" + \
-                  "╠❂➣ " + key + "join\n" + \
+                  "╠❂➣ " + key + "Mjoin\n" + \
+                  "╠❂➣ " + key + "Mbye\n" + \
                   "╠❂➣ " + key + "Assist join\n" + \
                   "╠❂➣ " + key + "Ginfo\n" + \
                   "╠❂➣ " + key + "Open\n" + \
@@ -524,6 +525,8 @@ def help2():
                   "╠❂➣ " + key + "Protectkick「on/off」\n" + \
                   "╠❂➣ " + key + "Protectcancel「on/off」\n" + \
                   "╠❂➣ " + key + "Protectinvite「on/off」\n" + \
+                  "╠❂➣ " + key + "Blockjs「on/off」\n" + \
+                  "╠❂➣ " + key + "Js\n" + \
                   "╠═══════════════════════╗" + "\n" + \
                   "     ◄]·✪·Settings·✪·[►" + "\n" + \
                   "╠═══════════════════════╝" + "\n" + \
@@ -1339,8 +1342,8 @@ def bot(op):
                     if (wait["message"] in [" "," ","\n",None]):
                         pass
                     else:
-                        boy.sendMessage(op.param1, wait["message"])
-
+                        boy.sendText(op.param1, wait["message"])
+                        boy.blockContact(op.param1)
 #===========KICK============#
         if op.type == 19:
             if op.param1 in protectkick:
@@ -4395,7 +4398,7 @@ def bot(op):
                                 get_contact_time_start = time.time()
                                 get_contact = boy.getContact(mid)
                                 get_contact_time = time.time() - get_contact_time_start
-                                boy.sendMessage(msg.to, " ❧ BOT Speed respon\n\n - Get Profile\n   %.10f\n - Get Contact\n   %.10f\n - Get Group\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
+                                boy.sendMessage(msg.to, "🤖 BOT Speed respon\n\n - Get Profile\n   %.10f\n - Get Contact\n   %.10f\n - Get Group\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
 
                         elif cmd == "speed" or cmd == "sp":
                           if wait["selfbot"] == True:
@@ -4595,8 +4598,8 @@ def bot(op):
                                         num += 1
                                         ret_ += "\n {}. {}".format(str(num), str(music["single"]))
                                     ret_ += "\n  ━━[ Total {} Lagu ]━━".format(str(len(data["result"])))
-                                    ret_ += "\n\nUntuk Melihat Details Musik, Silahkan Ketik \n❧「 {}Playlist {}:nomor 」 ".format(str(),str(search))
-                                    ret_ += "\n❧「 {}Lirik {}:nomor 」 ".format(str(),str(search))
+                                    ret_ += "\n\nUntuk Melihat Details Musik, Silahkan Ketik \n🤖「 {}Playlist {}:nomor 」 ".format(str(),str(search))
+                                    ret_ += "\n🤖「 {}Lirik {}:nomor 」 ".format(str(),str(search))
                                     boy.sendMessage(msg.to, str(ret_))
                                 elif len(cond) == 2:
                                     num = int(cond[1])
@@ -4633,8 +4636,8 @@ def bot(op):
                                         num += 1
                                         ret_ += "\n {}. {}".format(str(num), str(lyric["single"]))
                                     ret_ += "\n  ━━[ Total {} Lagu ]━━".format(str(len(data["results"])))
-                                    ret_ += "\n\nUntuk Melihat Details Musik, Silahkan Ketik \n❧「 {}Lirik {}:nomor 」".format(str(),str(search))
-                                    ret_ += "\n❧「 {}Playlist {}:nomor 」 ".format(str(),str(search))
+                                    ret_ += "\n\nUntuk Melihat Details Musik, Silahkan Ketik \n🤖「 {}Lirik {}:nomor 」".format(str(),str(search))
+                                    ret_ += "\n🤖「 {}Playlist {}:nomor 」 ".format(str(),str(search))
                                     boy.sendMessage(msg.to, str(ret_))
                                 elif len(cond) == 2:
                                     num = int(cond[1])
@@ -4710,11 +4713,11 @@ def bot(op):
                                     me = best.url
                                     hasil = ""
                                     title = "Judul [ " + vid.title + " ]"
-                                    author = '\n\n❧ Author : ' + str(vid.author)
-                                    durasi = '\n❧ Duration : ' + str(vid.duration)
-                                    suka = '\n❧ Likes : ' + str(vid.likes)
-                                    rating = '\n❧ Rating : ' + str(vid.rating)
-                                    deskripsi = '\n❧ Deskripsi : ' + str(vid.description)
+                                    author = '\n\n🤖 Author : ' + str(vid.author)
+                                    durasi = '\n🤖 Duration : ' + str(vid.duration)
+                                    suka = '\n🤖 Likes : ' + str(vid.likes)
+                                    rating = '\n🤖 Rating : ' + str(vid.rating)
+                                    deskripsi = '\n🤖 Deskripsi : ' + str(vid.description)
                                 boy.sendVideoWithURL(msg.to, me)
                                 boy.sendMessage(msg.to,title+ author+ durasi+ suka+ rating+ deskripsi)
                             except Exception as e:
@@ -4748,11 +4751,11 @@ def bot(op):
                                     vin = s.url
                                     hasil = ""
                                     title = "Judul [ " + vid.title + " ]"
-                                    author = '\n\n❧ Author : ' + str(vid.author)
-                                    durasi = '\n❧ Duration : ' + str(vid.duration)
-                                    suka = '\n❧ Likes : ' + str(vid.likes)
-                                    rating = '\n❧ Rating : ' + str(vid.rating)
-                                    deskripsi = '\n❧ Deskripsi : ' + str(vid.description)
+                                    author = '\n\n🤖 Author : ' + str(vid.author)
+                                    durasi = '\n🤖 Duration : ' + str(vid.duration)
+                                    suka = '\n🤖 Likes : ' + str(vid.likes)
+                                    rating = '\n🤖 Rating : ' + str(vid.rating)
+                                    deskripsi = '\n🤖 Deskripsi : ' + str(vid.description)
                                 boy.sendImageWithURL(msg.to, me)
                                 boy.sendAudioWithURL(msg.to, shi)
                                 boy.sendMessage(msg.to,title+ author+ durasi+ suka+ rating+ deskripsi)
@@ -5298,7 +5301,7 @@ def bot(op):
                                        except:
                                            pass
 
-                        elif ("cium " in msg.text):
+                        elif ("Kick " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -5312,30 +5315,7 @@ def bot(op):
                                            random.choice(ABC).kickoutFromGroup(msg.to, [target])
                                        except:
                                            pass
-
-                        elif  cmd == "crash" or text.lower() == "virus" or text.lower () == "Crash":
-                     #     if wait["selfbot"] == True:
-                        #    if msg._from in admin:
-                              dia = ("CACAT MAINANNYA CRASH","Tercyduck ingin ngecrash!","Kamu asu ngecrash terus!","crash cresh crash cresh, bikin hp orang lag anjing!")
-                              ngkol = random.choice(dia)
-                              random.choice(ABC).sendText(msg.to,ngkol)
-                              random.choice(ABC).kickoutFromGroup(msg.to, [msg._from])
-                              random.choice(ABC).sendText(msg.to,"Mampus!")
-                              if msg.text in ["!cipok",".desah","!makan","!","?","!kickall",".kickall","Nuke","Cleanse","Ratakan","Mayhem","MB Mayhem","Kick all","kickall","!rata","play",".",","]:
-                              	Peringatan = ("Manual kek jangan pake bot.","Cupu lu! Ratain pake bot!","Lain kali liat liat dulu~","ＴＥＲＣＹＤＵＣＫ")
-                              Vonis = random.choice(Peringatan)
-                              random.choice(ABC).sendText(msg.to, Vonis)
-                              random.choice(ABC).kickoutFromGroup(msg.to, [msg._from])
-                              
-                              # for x in key["MENTIONEES"]:
-                            #        targets.append(x["M"])
-                             #  for target in targets:
-                              #     if target not in Bots:
-                               #        try:
-                                #           random.choice(ABC).kickoutFromGroup(msg.to, [target])
-                                 #      except:
-                                  #         pass
-
+                        
                         elif cmd == "Officeboy":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
@@ -5500,19 +5480,19 @@ def bot(op):
                                 ma = ""
                                 for i in admin:
                                     ma = k1.getContact(i)
-                                    k1.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
+                                    boy.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
                         elif cmd == "contact staff" or text.lower() == 'contact staff':
                                 ma = ""
                                 for i in staff:
                                     ma = k1.getContact(i)
-                                    k1.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
+                                    boy.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
                         elif cmd == "contact bot" or text.lower() == 'contact bot':
                                 ma = ""
                                 for i in Bots:
                                     ma = k1.getContact(i)
-                                    k1.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
+                                    boy.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
 #===========COMMAND ON OFF============#
                         elif cmd == "notag on" or text.lower() == 'notag on':
@@ -5687,7 +5667,7 @@ def bot(op):
                         elif cmd == "untalkban:on" or text.lower() == 'untalkban:on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                                wait["Talkdblacklist"] = True
+                                wait["Talkdblacklist"] = False
                                 boy.sendMessage(msg.to,"Kirim kontaknya...")
 
                         elif ("Ban " in msg.text):
@@ -5729,7 +5709,7 @@ def bot(op):
                         elif cmd == "unban:on" or text.lower() == 'unban:on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                                wait["dblacklist"] = True
+                                wait["dblacklist"] = False
                                 boy.sendMessage(msg.to,"Kirim kontaknya...")
 
                         elif cmd == "banlist" or text.lower() == 'banlist':
@@ -5744,7 +5724,7 @@ def bot(op):
                                     a = a + 1
                                     end = '\n'
                                     ma += str(a) + ". " +boy.getContact(m_id).displayName + "\n"
-                                boy.sendMessage(msg.to,"⏩ Blacklist User\n\n"+ma+"\nTotal「%s」Blacklist User" %(str(len(wait["blacklist"]))))
+                                boy.sendMessage(msg.to,"🤖 Blacklist User\n\n"+ma+"\nTotal「%s」Blacklist User" %(str(len(wait["blacklist"]))))
 
                         elif cmd == "talkbanlist" or text.lower() == 'talkbanlist':
                           if wait["selfbot"] == True:
@@ -5758,7 +5738,7 @@ def bot(op):
                                     a = a + 1
                                     end = '\n'
                                     ma += str(a) + ". " +boy.getContact(m_id).displayName + "\n"
-                                boy.sendMessage(msg.to,"⏩ Talkban User\n\n"+ma+"\nTotal「%s」Talkban User" %(str(len(wait["Talkblacklist"]))))
+                                boy.sendMessage(msg.to,"🤖 Talkban User\n\n"+ma+"\nTotal「%s」Talkban User" %(str(len(wait["Talkblacklist"]))))
 
                         elif cmd == "blc" or text.lower() == 'blc':
                           if wait["selfbot"] == True:
@@ -5776,7 +5756,7 @@ def bot(op):
                             if msg._from in admin:
                               wait["blacklist"] = {}
                               ragets = boy.getContacts(wait["blacklist"])
-                              mc = "���%i」User Blacklist" % len(ragets)
+                              mc = "「%i」User Blacklist" % len(ragets)
                               boy.sendMessage(msg.to,"Sukses membersihkan " +mc)
 #===========COMMAND SET============#
                         elif 'Set pesan: ' in msg.text:
@@ -5870,37 +5850,37 @@ def bot(op):
                                  for ticket_id in n_links:
                                      group = boy.findGroupByTicket(ticket_id)
                                      boy.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     boy.sendMessage(msg.to, "Boy-FirA📲 OTW MASUK KE GROUP : %s" % str(group.name))
+                                     boy.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group1 = k1.findGroupByTicket(ticket_id)
                                      k1.acceptGroupInvitationByTicket(group1.id,ticket_id)
-                                     k1.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     k1.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group2 = k2.findGroupByTicket(ticket_id)
                                      k2.acceptGroupInvitationByTicket(group2.id,ticket_id)
-                                     k2.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     k2.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group3 = k3.findGroupByTicket(ticket_id)
                                      k3.acceptGroupInvitationByTicket(group3.id,ticket_id)
-                                     k3.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     k3.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group4 = k4.findGroupByTicket(ticket_id)
                                      k4.acceptGroupInvitationByTicket(group4.id,ticket_id)
-                                     k4.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     k4.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group5 = k5.findGroupByTicket(ticket_id)
                                      k5.acceptGroupInvitationByTicket(group5.id,ticket_id)
-                                     k5.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     k5.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group6 = k6.findGroupByTicket(ticket_id)
                                      k6.acceptGroupInvitationByTicket(group6.id,ticket_id)
-                                     k6.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     k6.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group7 = k7.findGroupByTicket(ticket_id)
                                      k7.acceptGroupInvitationByTicket(group7.id,ticket_id)
-                                     k7.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     k7.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group8 = k8.findGroupByTicket(ticket_id)
                                      k8.acceptGroupInvitationByTicket(group8.id,ticket_id)
-                                     k8.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     k8.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group9 = k9.findGroupByTicket(ticket_id)
                                      k9.acceptGroupInvitationByTicket(group9.id,ticket_id)
-                                     k9.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     k9.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
                                      group10 = k10.findGroupByTicket(ticket_id)
                                      k10.acceptGroupInvitationByTicket(group10.id,ticket_id)
-                                     k10.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     k10.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
 
 
     except Exception as error:
