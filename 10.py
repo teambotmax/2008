@@ -437,49 +437,49 @@ def help():
                   "╔═════════════════╗" + "\n" + \
                   "╠       🤖 MENU SELF 🤖" + "\n" + \
                   "╠═════════════════╝" + "\n" + \
-                  "╠❂➣ " + key + "Help 1\n" + \
-                  "╠❂➣ " + key + "Help 2\n" + \
-                  "╠❂➣ " + key + "Help 3\n" + \
-                  "╠❂➣ " + key + "Help 4\n" + \
-                  "╠❂➣ " + key + "Me\n" + \
-                  "╠❂➣ " + key + "Mymid\n" + \
-                  "╠❂➣ " + key + "Mid「@」\n" + \
-                  "╠❂➣ " + key + "Info「@」\n" + \
-                  "╠❂➣ " + key + "Kick「@」\n" + \
-                  "╠❂➣ " + key + "Mybot\n" + \
-                  "╠❂➣ " + key + "Status\n" + \
-                  "╠❂➣ " + key + "Status translate\n" + \
-                  "╠❂➣ " + key + "About\n" + \
-                  "╠❂➣ " + key + "Restart\n" + \
-                  "╠❂➣ " + key + "Runtime\n" + \
-                  "╠❂➣ " + key + "Creator\n" + \
-                  "╠❂➣ " + key + "Respon\n" + \
-                  "╠❂➣ " + key + "Sp\n" + \
-                  "╠❂➣ " + key + "Spb\n" + \
-                  "╠❂➣ " + key + "Sprespon\n" + \
-                  "╠❂➣ " + key + "Mentionall\n" + \
-                  "╠❂➣ " + key + "Tagall\n" + \
-                  "╠❂➣ " + key + "Mjoin\n" + \
-                  "╠❂➣ " + key + "Mbye\n" + \
-                  "╠❂➣ " + key + "Assist join\n" + \
-                  "╠❂➣ " + key + "Ginfo\n" + \
-                  "╠❂➣ " + key + "Open\n" + \
-                  "╠❂➣ " + key + "Close\n" + \
-                  "╠❂➣ " + key + "Url grup\n" + \
-                  "╠❂➣ " + key + "Reject\n" + \
-                  "╠❂➣ " + key + "Gruplist\n" + \
-                  "╠❂➣ " + key + "Infogrup「angka」\n" + \
-                  "╠❂➣ " + key + "Infomem「angka」\n" + \
-                  "╠❂➣ " + key + "Lurking「on/off」\n" + \
-                  "╠❂➣ " + key + "Lurkers\n" + \
-                  "╠❂➣ " + key + "Sider「on/off」\n" + \
-                  "╠❂➣ " + key + "Uppro\n" + \
-                  "╠❂➣ " + key + "Updategrup\n" + \
-                  "╠❂➣ " + key + "Upbot\n" + \
-                  "╠❂➣ " + key + "Broadcast:「Text」\n" + \
-                  "╠❂➣ " + key + "Setkey「New Key」\n" + \
-                  "╠❂➣ " + key + "Mykey\n" + \
-                  "╠❂➣ " + key + "Resetkey\n" + \
+                  "╠❂͜͡☬➣ " + key + "Help 1\n" + \
+                  "╠❂͜͡☬➣ " + key + "Help 2\n" + \
+                  "╠❂͜͡☬➣ " + key + "Help 3\n" + \
+                  "╠❂͜͡☬➣ " + key + "Help 4\n" + \
+                  "╠❂͜͡☬➣ " + key + "Me\n" + \
+                  "╠❂͜͡☬➣ " + key + "Mid\n" + \
+                  "╠❂͜͡☬➣ " + key + "Mid「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Info「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Kick「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Mybot\n" + \
+                  "╠❂͜͡☬➣ " + key + "Status\n" + \
+                  "╠❂͜͡☬➣ " + key + "Status translate\n" + \
+                  "╠❂͜͡☬➣ " + key + "About\n" + \
+                  "╠❂͜͡☬➣ " + key + "Restart\n" + \
+                  "╠❂͜͡☬➣ " + key + "Runtime\n" + \
+                  "╠❂͜͡☬➣ " + key + "Creator\n" + \
+                  "╠❂͜͡☬➣ " + key + "Respon\n" + \
+                  "╠❂͜͡☬➣ " + key + "Sp\n" + \
+                  "╠❂͜͡☬➣ " + key + "Spb\n" + \
+                  "╠❂͜͡☬➣ " + key + "Sprespon\n" + \
+                  "╠❂͜͡☬➣ " + key + "Mentionall\n" + \
+                  "╠❂͜͡☬➣ " + key + "Tagall\n" + \
+                  "╠❂͜͡☬➣ " + key + "Mjoin\n" + \
+                  "╠❂͜͡☬➣ " + key + "Mbye\n" + \
+                  "╠❂͜͡☬➣ " + key + "Assist join\n" + \
+                  "╠❂͜͡☬➣ " + key + "Ginfo\n" + \
+                  "╠❂͜͡☬➣ " + key + "Open\n" + \
+                  "╠❂͜͡☬➣ " + key + "Close\n" + \
+                  "╠❂͜͡☬➣ " + key + "Url grup\n" + \
+                  "╠❂͜͡☬➣ " + key + "Reject\n" + \
+                  "╠❂͜͡☬➣ " + key + "Gruplist\n" + \
+                  "╠❂͜͡☬➣ " + key + "Infogrup「angka」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Infomem「angka」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Lurking「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Lurkers\n" + \
+                  "╠❂͜͡☬➣ " + key + "Sider「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Uppro\n" + \
+                  "╠❂͜͡☬➣ " + key + "Updategrup\n" + \
+                  "╠❂͜͡☬➣ " + key + "Upbot\n" + \
+                  "╠❂͜͡☬➣ " + key + "Broadcast:「Text」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Setkey「New Key」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Mykey\n" + \
+                  "╠❂͜͡☬➣ " + key + "Resetkey\n" + \
                   "╠══════════════════╗" + "\n" + \
                   "╠    BY: SELFBOT-BY:MAX" + "\n" + \
                   "╚══════════════════╝" 
@@ -491,24 +491,24 @@ def help1():
     helpMessage1 = "╔══════════════════╗" + "\n" + \
                   "╠          🤖 Hiburan 🤖" + "\n" + \
                   "╠══════════════════╝" + "\n" + \
-                  "╠❂➣ " + key + "Musik:「Judul Lagu」\n" + \
-                  "╠❂➣ " + key + "Musik2:「Judul Lagu」\n" + \
-                  "╠❂➣ " + key + "Playlist「Nama Penyanyi」\n" + \
-                  "╠❂➣ " + key + "Ytmp3:「Judul Lagu」\n" + \
-                  "╠❂➣ " + key + "Ytmp4:「Judul Video\n" + \
-                  "╠❂➣ " + key + "Meme@Nama@Teks1@Teks2\n" + \
-                  "╠❂➣ " + key + "1cak\n" + \
-                  "╠❂➣ " + key + "Profilesmule:「ID Smule」\n" + \
-                  "╠❂➣ " + key + "Randomnumber:「Nmor-Nmor」\n" + \
-                  "╠❂➣ " + key + "Gimage:「Keyword」\n" + \
-                  "╠❂➣ " + key + "Img food:「Nama Makanan」\n" + \
-                  "╠❂➣ " + key + "Cekig:「ID IG」\n" + \
-                  "╠❂➣ " + key + "Profileig:「Nama IG」\n" + \
-                  "╠❂➣ " + key + "Cekdate:「tgl-bln-thn」\n" + \
-                  "╠❂➣ " + key + "Spamtag:「jumlahnya」\n" + \
-                  "╠❂➣ " + key + "Spamtag「@」\n" + \
-                  "╠❂➣ " + key + "Spamcall:「jumlahnya」\n" + \
-                  "╠❂➣ " + key + "Spamcall\n" + \
+                  "╠❂͜͡☬➣ " + key + "Musik:「Judul Lagu」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Musik2:「Judul Lagu」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Playlist「Nama Penyanyi」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Ytmp3:「Judul Lagu」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Ytmp4:「Judul Video\n" + \
+                  "╠❂͜͡☬➣ " + key + "Meme@Nama@Teks1@Teks2\n" + \
+                  "╠❂͜͡☬➣ " + key + "1cak\n" + \
+                  "╠❂͜͡☬➣ " + key + "Profilesmule:「ID Smule」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Randomnumber:「Nmor-Nmor」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Gimage:「Keyword」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Img food:「Nama Makanan」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Cekig:「ID IG」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Profileig:「Nama IG」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Cekdate:「tgl-bln-thn」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Spamtag:「jumlahnya」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Spamtag「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Spamcall:「jumlahnya」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Spamcall\n" + \
                   "╠══════════════════╗" + "\n" + \
                   "╠    BY: SELFBOT-BY:MAX" + "\n" + \
                   "╚══════════════════╝" 
@@ -520,49 +520,49 @@ def help2():
     helpMessage2 = "╔══════════════════╗" + "\n" + \
                   "╠          🤖 Protect 🤖" + "\n" + \
                   "╠══════════════════╝" + "\n" + \
-                  "╠❂➣ " + key + "Notag「on/off」\n" + \
-                  "╠❂➣ " + key + "Allpro「on/off」\n" + \
-                  "╠❂➣ " + key + "Protecturl「on/off」\n" + \
-                  "╠❂➣ " + key + "Protectjoin「on/off」\n" + \
-                  "╠❂➣ " + key + "Protectkick「on/off」\n" + \
-                  "╠❂➣ " + key + "Protectcancel「on/off」\n" + \
-                  "╠❂➣ " + key + "Protectinvite「on/off」\n" + \
-                  "╠❂➣ " + key + "Blockjs「on/off」\n" + \
-                  "╠❂➣ " + key + "Js\n" + \
+                  "╠❂͜͡☬➣ " + key + "Notag「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Allpro「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Protecturl「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Protectjoin「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Protectkick「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Protectcancel「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Protectinvite「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Blockjs「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Js\n" + \
                   "╠══════════════════╗" + "\n" + \
                   "╠          🤖 Settings 🤖" + "\n" + \
                   "╠══════════════════╝" + "\n" + \
-                  "╠❂➣ " + key + "Unsend「on/off」\n" + \
-                  "╠❂➣ " + key + "Jointicket「on/off」\n" + \
-                  "╠❂➣ " + key + "Sticker「on/off」\n" + \
-                  "╠❂➣ " + key + "Respon「on/off」\n" + \
-                  "╠❂➣ " + key + "Respongift「on/off」\n" + \
-                  "╠❂➣ " + key + "Contact「on/off」\n" + \
-                  "╠❂➣ " + key + "Autojoin「on/off」\n" + \
-                  "╠❂➣ " + key + "Autoadd「on/off」\n" + \
-                  "╠❂➣ " + key + "Welcome「on/off」\n" + \
-                  "╠❂➣ " + key + "Simi「on/off」\n" + \
-                  "╠❂➣ " + key + "Autoleave「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Unsend「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Jointicket「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Sticker「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Respon「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Respongift「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Contact「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Autojoin「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Autoadd「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Welcome「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Simi「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Autoleave「on/off」\n" + \
                   "╠══════════════════╗" + "\n" + \
                   "╠           🤖 Admin 🤖" + "\n" + \
                   "╠══════════════════╝" + "\n" + \
-                  "╠❂➣ " + key + "Admin:on\n" + \
-                  "╠❂➣ " + key + "Admin:delete\n" + \
-                  "╠❂➣ " + key + "Staff:on\n" + \
-                  "╠❂➣ " + key + "Staff:delete\n" + \
-                  "╠❂➣ " + key + "Bot:on\n" + \
-                  "╠❂➣ " + key + "Bot:delete\n" + \
-                  "╠❂➣ " + key + "Adminadd「@」\n" + \
-                  "╠❂➣ " + key + "Admindell「@」\n" + \
-                  "╠❂➣ " + key + "Staffadd「@」\n" + \
-                  "╠❂➣ " + key + "Staffdell「@」\n" + \
-                  "╠❂➣ " + key + "Botadd「@」\n" + \
-                  "╠❂➣ " + key + "Botdell「@」\n" + \
-                  "╠❂➣ " + key + "Refresh\n" + \
-                  "╠❂➣ " + key + "Listbot\n" + \
-                  "╠❂➣ " + key + "Listadmin\n" + \
-                  "╠❂➣ " + key + "Listprotect\n" + \
-                  "╠❂➣ Ketik「 Refresh 」Jika Sudah\n╠❂➣ Menggunakan Command Diatas...\n" + \
+                  "╠❂͜͡☬➣ " + key + "Admin:on\n" + \
+                  "╠❂͜͡☬➣ " + key + "Admin:delete\n" + \
+                  "╠❂͜͡☬➣ " + key + "Staff:on\n" + \
+                  "╠❂͜͡☬➣ " + key + "Staff:delete\n" + \
+                  "╠❂͜͡☬➣ " + key + "Bot:on\n" + \
+                  "╠❂͜͡☬➣ " + key + "Bot:delete\n" + \
+                  "╠❂͜͡☬➣ " + key + "Adminadd「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Admindell「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Staffadd「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Staffdell「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Botadd「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Botdell「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Refresh\n" + \
+                  "╠❂͜͡☬➣ " + key + "Listbot\n" + \
+                  "╠❂͜͡☬➣ " + key + "Listadmin\n" + \
+                  "╠❂͜͡☬➣ " + key + "Listprotect\n" + \
+                  "╠❂͜͡☬➣ Ketik「 Refresh 」Jika Sudah\n╠❂͜͡☬➣ Menggunakan Command Diatas...\n" + \
                   "╠══════════════════╗" + "\n" + \
                   "╠    BY: SELFBOT-BY:MAX" + "\n" + \
                   "╚══════════════════╝" 
@@ -578,57 +578,57 @@ def helpbot():
                   "╔══════════════════╗" + "\n" + \
                   "╠             🤖 BOT 🤖" + "\n" + \
                   "╠══════════════════╝" + "\n" + \
-                  "╠❂➣ " + key + "Mytoken\n" + \
-                  "╠❂➣ " + key + "Cek sider\n" + \
-                  "╠❂➣ " + key + "Cek spam\n" + \
-                  "╠❂➣ " + key + "Cek pesan\n" + \
-                  "╠❂➣ " + key + "Cek respon\n" + \
-                  "╠❂➣ " + key + "Cek welcome\n" + \
-                  "╠❂➣ " + key + "Cek leave\n" + \
-                  "╠❂➣ " + key + "Set sider:「Text」\n" + \
-                  "╠❂➣ " + key + "Set spam:「Text」\n" + \
-                  "╠❂➣ " + key + "Set pesan:「Text」\n" + \
-                  "╠❂➣ " + key + "Set respon:「Text」\n" + \
-                  "╠❂➣ " + key + "Set welcome:「Text」\n" + \
-                  "╠❂➣ " + key + "Set leave:「Text」\n" + \
-                  "╠❂➣ " + key + "Myname:「Nama」\n" + \
-                  "╠❂➣ " + key + "Bot1name:「Nama」\n" + \
-                  "╠❂➣ " + key + "Bot2name:「Nama」\n" + \
-                  "╠❂➣ " + key + "Bot1up「Kirim fotonya」\n" + \
-                  "╠❂➣ " + key + "Bot2up「Kirim fotonya」\n" + \
-                  "╠❂➣ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
-                  "╠❂➣ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
-				  "╠❂➣ " + key + "Spamtag:「jumlahnya」\n" + \
-                  "╠❂➣ " + key + "Spamtag「@」\n" + \
-                  "╠❂➣ " + key + "Spamcall:「jumlahnya」\n" + \
-                  "╠❂➣ " + key + "Spamcall\n" + \
-				  "╠❂➣ " + key + "Uppro\n" + \
-                  "╠❂➣ " + key + "Updategrup\n" + \
-                  "╠❂➣ " + key + "Upbot\n" + \
-                  "╠❂➣ " + key + "Broadcast:「Text」\n" + \
-                  "╠❂➣ " + key + "Setkey「New Key」\n" + \
-                  "╠❂➣ " + key + "Mykey\n" + \
-                  "╠❂➣ " + key + "Resetkey\n" + \
-				  "╠❂➣ " + key + "Self「on/off」\n" + \
-				  "╠❂➣ " + key + "Hapus chat\n" + \
-                  "╠❂➣ " + key + "Remove chat\n" + \
-				  "╠❂➣ " + key + "Leave:「Namagrup」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Mytoken\n" + \
+                  "╠❂͜͡☬➣ " + key + "Cek sider\n" + \
+                  "╠❂͜͡☬➣ " + key + "Cek spam\n" + \
+                  "╠❂͜͡☬➣ " + key + "Cek pesan\n" + \
+                  "╠❂͜͡☬➣ " + key + "Cek respon\n" + \
+                  "╠❂͜͡☬➣ " + key + "Cek welcome\n" + \
+                  "╠❂͜͡☬➣ " + key + "Cek leave\n" + \
+                  "╠❂͜͡☬➣ " + key + "Set sider:「Text」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Set spam:「Text」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Set pesan:「Text」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Set respon:「Text」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Set welcome:「Text」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Set leave:「Text」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Myname:「Nama」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Bot1name:「Nama」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Bot2name:「Nama」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Bot1up「Kirim fotonya」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Bot2up「Kirim fotonya」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
+				  "╠❂͜͡☬➣ " + key + "Spamtag:「jumlahnya」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Spamtag「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Spamcall:「jumlahnya」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Spamcall\n" + \
+				  "╠❂͜͡☬➣ " + key + "Uppro\n" + \
+                  "╠❂͜͡☬➣ " + key + "Updategrup\n" + \
+                  "╠❂͜͡☬➣ " + key + "Upbot\n" + \
+                  "╠❂͜͡☬➣ " + key + "Broadcast:「Text」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Setkey「New Key」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Mykey\n" + \
+                  "╠❂͜͡☬➣ " + key + "Resetkey\n" + \
+				  "╠❂͜͡☬➣ " + key + "Self「on/off」\n" + \
+				  "╠❂͜͡☬➣ " + key + "Hapus chat\n" + \
+                  "╠❂͜͡☬➣ " + key + "Remove chat\n" + \
+				  "╠❂͜͡☬➣ " + key + "Leave:「Namagrup」\n" + \
                   "╠══════════════════╗" + "\n" + \
                   "╠          🤖 Blacklist 🤖" + "\n" + \
                   "╠══════════════════╝" + "\n" + \
-                  "╠❂➣ " + key + "Blc\n" + \
-                  "╠❂➣ " + key + "Ban:on\n" + \
-                  "╠❂➣ " + key + "Unban:on\n" + \
-                  "╠❂➣ " + key + "Ban「@」\n" + \
-                  "╠❂➣ " + key + "Unban「@」\n" + \
-                  "╠❂➣ " + key + "Talkban「@」\n" + \
-                  "╠❂➣ " + key + "Untalkban「@」\n" + \
-                  "╠❂➣ " + key + "Talkban:on\n" + \
-                  "╠❂➣ " + key + "Untalkban:on\n" + \
-                  "╠❂➣ " + key + "Banlist\n" + \
-                  "╠❂➣ " + key + "Talkbanlist\n" + \
-                  "╠❂➣ " + key + "Clearban\n" + \
-                  "╠❂➣ " + key + "Refresh\n" + \
+                  "╠❂͜͡☬➣ " + key + "Blc\n" + \
+                  "╠❂͜͡☬➣ " + key + "Ban:on\n" + \
+                  "╠❂͜͡☬➣ " + key + "Unban:on\n" + \
+                  "╠❂͜͡☬➣ " + key + "Ban「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Unban「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Talkban「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Untalkban「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Talkban:on\n" + \
+                  "╠❂͜͡☬➣ " + key + "Untalkban:on\n" + \
+                  "╠❂͜͡☬➣ " + key + "Banlist\n" + \
+                  "╠❂͜͡☬➣ " + key + "Talkbanlist\n" + \
+                  "╠❂͜͡☬➣ " + key + "Clearban\n" + \
+                  "╠❂͜͡☬➣ " + key + "Refresh\n" + \
                   "╠══════════════════╗" + "\n" + \
                   "╠    BY: SELFBOT-BY:MAX" + "\n" + \
                   "╚══════════════════╝"
@@ -642,34 +642,34 @@ def infomeme():
 ╔══════════════════╗
 ╠    ◄]·✪·List Meme·✪·[►
 ╠══════════════════╝
-╠❂➣ Buzz
-╠❂➣ Spongebob
-╠❂➣ Patrick
-╠❂➣ Doge
-╠❂➣ Joker
-╠❂➣ Xzibit
-╠❂➣ You_tried
-╠❂➣ cb
-╠❂➣ blb
-╠❂➣ wonka
-╠❂➣ keanu
-╠❂➣ cryingfloor
-╠❂➣ disastergirl
-╠❂➣ facepalm
-╠❂➣ fwp
-╠❂➣ grumpycat
-╠❂➣ captain
-╠❂➣ mmm
-╠❂➣ rollsafe
-╠❂➣ sad-obama
-╠❂➣ sad-clinton
-╠❂➣ aag
-╠❂➣ sarcasticbear
-╠❂➣ sk
-╠❂➣ sparta
-╠❂➣ sad
-╠❂➣ contoh:
-╠❂➣ Meme@buzz@lu tau?@gatau
+╠❂͜͡☬➣ Buzz
+╠❂͜͡☬➣ Spongebob
+╠❂͜͡☬➣ Patrick
+╠❂͜͡☬➣ Doge
+╠❂͜͡☬➣ Joker
+╠❂͜͡☬➣ Xzibit
+╠❂͜͡☬➣ You_tried
+╠❂͜͡☬➣ cb
+╠❂͜͡☬➣ blb
+╠❂͜͡☬➣ wonka
+╠❂͜͡☬➣ keanu
+╠❂͜͡☬➣ cryingfloor
+╠❂͜͡☬➣ disastergirl
+╠❂͜͡☬➣ facepalm
+╠❂͜͡☬➣ fwp
+╠❂͜͡☬➣ grumpycat
+╠❂͜͡☬➣ captain
+╠❂͜͡☬➣ mmm
+╠❂͜͡☬➣ rollsafe
+╠❂͜͡☬➣ sad-obama
+╠❂͜͡☬➣ sad-clinton
+╠❂͜͡☬➣ aag
+╠❂͜͡☬➣ sarcasticbear
+╠❂͜͡☬➣ sk
+╠❂͜͡☬➣ sparta
+╠❂͜͡☬➣ sad
+╠❂͜͡☬➣ contoh:
+╠❂͜͡☬➣ Meme@buzz@lu tau?@gatau
 ╠══════════════════╗
 ╠    BY: SELFBOT-BY:MAX
 ╚══════════════════╝
@@ -881,7 +881,7 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         k2.acceptGroupInvitation(op.param1)
                         ginfo = k2.getGroup(op.param1)
-                        k2.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        k2.sendMessage(op.param1,"Selamat Tinggal\nGroup " +str(ginfo.name))
                         k2.leaveGroup(op.param1)
                     else:
                         k2.acceptGroupInvitation(op.param1)
@@ -893,7 +893,7 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         k3.acceptGroupInvitation(op.param1)
                         ginfo = k3.getGroup(op.param1)
-                        k3.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        k3.sendMessage(op.param1,"Selamat Tinggal\nGroup " +str(ginfo.name))
                         k3.leaveGroup(op.param1)
                     else:
                         k3.acceptGroupInvitation(op.param1)
@@ -916,7 +916,7 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         k5.acceptGroupInvitation(op.param1)
                         ginfo = k5.getGroup(op.param1)
-                        k5.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        k5.sendMessage(op.param1,"Selamat Tinggal\nGroup " +str(ginfo.name))
                         k5.leaveGroup(op.param1)
                     else:
                         k5.acceptGroupInvitation(op.param1)
@@ -928,7 +928,7 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         k6.acceptGroupInvitation(op.param1)
                         ginfo = k6.getGroup(op.param1)
-                        k6.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        k6.sendMessage(op.param1,"Selamat Tinggal\nGroup " +str(ginfo.name))
                         k6.leaveGroup(op.param1)
                     else:
                         k6.acceptGroupInvitation(op.param1)
@@ -940,7 +940,7 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         k7.acceptGroupInvitation(op.param1)
                         ginfo = k7.getGroup(op.param1)
-                        k7.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        k7.sendMessage(op.param1,"Selamat Tinggal\nGroup " +str(ginfo.name))
                         k7.leaveGroup(op.param1)
                     else:
                         k7.acceptGroupInvitation(op.param1)
@@ -963,7 +963,7 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         k9.acceptGroupInvitation(op.param1)
                         ginfo = k9.getGroup(op.param1)
-                        k9.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        k9.sendMessage(op.param1,"Selamat Tinggal\nGroup " +str(ginfo.name))
                         k9.leaveGroup(op.param1)
                     else:
                         k9.acceptGroupInvitation(op.param1)
@@ -975,7 +975,7 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         k10.acceptGroupInvitation(op.param1)
                         ginfo = k10.getGroup(op.param1)
-                        k10.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        k10.sendMessage(op.param1,"Selamat Tinggal\nGroup " +str(ginfo.name))
                         k10.leaveGroup(op.param1)
                     else:
                         k10.acceptGroupInvitation(op.param1)
@@ -1385,11 +1385,10 @@ def bot(op):
                 else:
                     pass
 #===========Accepet===========#
-
+        if op.type == 13:
             if op.param3 in mid:
                 if op.param2 in Bots:
                     boy.acceptGroupInvitation(op.param1)
-        if op.type == 13:
             if op.param3 in Amid:
                 if op.param2 in Bots:
                     k1.acceptGroupInvitation(op.param1)
@@ -2696,7 +2695,7 @@ def bot(op):
                                     random.choice(ABC).updateGroup(G)
                                     Ticket = random.choice(ABC).reissueGroupTicket(op.param1)
                                     boy.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                    k1.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                    k10.acceptGroupInvitationByTicket(op.param1,Ticket)
                                     G = random.choice(ABC).getGroup(op.param1)
                                     G.preventedJoinByTicket = True
                                     random.choice(ABC).updateGroup(G)
@@ -2711,6 +2710,58 @@ def bot(op):
                                             k3.kickoutFromGroup(op.param1,[op.param2])
                                             k3.inviteIntoGroup(op.param1,[op.param3])
                                             k10.acceptGroupInvitation(op.param1)
+                                        except:
+                                            pass
+                return
+        if op.type == 19:
+            if Zmid in op.param3:
+                if op.param2 in Bots:
+                    pass
+                if op.param2 in owner:
+                    pass
+                if op.param2 in admin:
+                    pass
+                if op.param2 in staff:
+                    pass
+                else:
+                    wait["blacklist"][op.param2] = True
+                    try:
+                        k2.kickoutFromGroup(op.param1,[op.param2])
+                        k2.inviteIntoGroup(op.param1,[op.param3])
+                        sw.acceptGroupInvitation(op.param1)
+                    except:
+                        try:
+                            k3.kickoutFromGroup(op.param1,[op.param2])
+                            k3.inviteIntoGroup(op.param1,[op.param3])
+                            sw.acceptGroupInvitation(op.param1)
+                        except:
+                            try:
+                                k4.kickoutFromGroup(op.param1,[op.param2])
+                                k4.inviteIntoGroup(op.param1,[op.param3])
+                                sw.acceptGroupInvitation(op.param1)
+                            except:
+                                try:
+                                    G = random.choice(ABC).getGroup(op.param1)
+                                    G.preventedJoinByTicket = False
+                                    random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
+                                    random.choice(ABC).updateGroup(G)
+                                    Ticket = random.choice(ABC).reissueGroupTicket(op.param1)
+                                    boy.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                    sw.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                    G = random.choice(ABC).getGroup(op.param1)
+                                    G.preventedJoinByTicket = True
+                                    random.choice(ABC).updateGroup(G)
+                                    Ticket = random.choice(ABC).reissueGroupTicket(op.param1)
+                                except:
+                                    try:
+                                        k2.kickoutFromGroup(op.param1,[op.param2])
+                                        k2.inviteIntoGroup(op.param1,[op.param3])
+                                        sw.acceptGroupInvitation(op.param1)
+                                    except:
+                                        try:
+                                            k3.kickoutFromGroup(op.param1,[op.param2])
+                                            k3.inviteIntoGroup(op.param1,[op.param3])
+                                            sw.acceptGroupInvitation(op.param1)
                                         except:
                                             pass
                 return
@@ -2973,7 +3024,7 @@ def bot(op):
                            else:
                                 ginfo = boy.getGroup(at)
                                 Boy = boy.getContact(msg_dict[msg_id]["from"])
-                                ret_ =  "「 Pesan Dihapus 」\n"
+                                ret_ =  "「 UNSEND MESSAGE 」\n"
                                 ret_ += "❂➣ Pengirim : {}".format(str(Boy.displayName))
                                 ret_ += "\n❂➣ Nama Grup : {}".format(str(ginfo.name))
                                 ret_ += "\n❂➣ Waktu Ngirim : {}".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
@@ -3488,49 +3539,49 @@ def bot(op):
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "  ┏━━━━━━━━━━━━\n┃┃          🐚 S T A T U S 🐚\n┃┣━━━━━━━━━━━━\n"
-                                if wait["unsend"] == True: md+="┃┃🍁 ✔️ Unsend「ON」\n"
-                                else: md+="┃┃🍁 ✖ Unsend「OFF」\n"                                
-                                if wait["sticker"] == True: md+="┃┃🍁 ✔️ Sticker「ON」\n"
-                                else: md+="┃┃🍁 ✖ Sticker「OFF」\n"
-                                if wait["contact"] == True: md+="┃┃🍁 ✔️ Contact「ON」\n"
-                                else: md+="┃┃🍁 ✖ Contact「OFF」\n"
-                                if wait["talkban"] == True: md+="┃┃🍁 ✔️ Talkban「ON」\n"
-                                else: md+="┃┃🍁 ✖ Talkban「OFF」\n"
-                                if wait["Mentionkick"] == True: md+="┃┃🍁 ✔️ Notag「ON」\n"
-                                else: md+="┃┃🍁 ✖ Notag「OFF」\n"
-                                if wait["detectMention"] == True: md+="┃┃🍁 ✔️ Respon「ON」\n"
-                                else: md+="┃┃🍁 ✖ Respon「OFF」\n"
-                                if wait["Mentiongift"] == True: md+="┃┃🍁 ✔️ Respongift「ON」\n"
-                                else: md+="┃┃🍁 ✖ Respongift「OFF」\n"                                
-                                if wait["autoJoin"] == True: md+="┃┃🍁 ✔️ Autojoin「ON」\n"
-                                else: md+="┃┃🍁 ✖ Autojoin「OFF」\n"
-                                if settings["autoJoinTicket"] == True: md+="┃┃🍁 ✔️ Jointicket「ON」\n"
-                                else: md+="┃┃🍁 ✖ Jointicket「OFF」\n"                                
-                                if wait["autoAdd"] == True: md+="┃┃🍁 ✔️ Autoadd「ON」\n"
-                                else: md+="┃┃🍁 ✖ Autoadd「OFF」\n"                                
-                                if wait["Timeline"] == True: md+="┃┃🍁 ✔️ Timeline「ON」\n"
-                                else: md+="┃┃🍁 ✖ Timeline「OFF」\n"
-                                if msg.to in welcome: md+="┃┃🍁 ✔️ Welcome「ON」\n"
-                                else: md+="┃┃🍁 ✖ Welcome「OFF」\n"
-                                if msg.to in simisimi: md+="┃┃🍁 ✔️ Simisimi「ON」\n"
-                                else: md+="┃┃🍁 ✖ Simisimi「OFF」\n"                                
-                                if wait["autoLeave"] == True: md+="┃┃🍁 ✔️ Autoleave「ON」\n"
-                                else: md+="┃┃🍁 ✖ Autoleave「OFF」\n"
-                                if msg.to in protectqr: md+="┃┃🍁 ✔️ Protecturl「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protecturl「OFF」\n"
-                                if msg.to in protectjoin: md+="┃┃🍁 ✔️ Protectjoin「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protectjoin「OFF」\n"
-                                if msg.to in protectkick: md+="┃┃🍁 ✔️ Protectkick「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protectkick「OFF」\n"
-                                if msg.to in protectcancel: md+="┃┃🍁 ✔️ Protectcancel「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protectcancel「OFF」\n"
-                                if msg.to in protectinvite: md+="┃┃🍁 ✔️ Protectinvite「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protectinvite「OFF」\n" 
-                                if msg.to in protectantijs: md+="┃┃🍁 ✔️ Protectantijs「ON」\n"
-                                else: md+="┃┃🍁 ✖ Protectantijs「OFF」\n"
-                                if msg.to in ghost: md+="┃┃🍁 ✔️ Ghost「ON」\n"
-                                else: md+="┃┃🍁 ✖ Ghost「OFF」\n"                                                
+                                md = "  ┏━━━━━━━━━━━━\n┃┃     🤖 S T A T U S 🤖\n┃┣━━━━━━━━━━━━\n"
+                                if wait["unsend"] == True: md+="┃┃🐚 ✔️ Unsend「ON」\n"
+                                else: md+="┃┃🐚 ✖ Unsend「OFF」\n"                                
+                                if wait["sticker"] == True: md+="┃┃🐚 ✔️ Sticker「ON」\n"
+                                else: md+="┃┃🐚 ✖ Sticker「OFF」\n"
+                                if wait["contact"] == True: md+="┃┃🐚 ✔️ Contact「ON」\n"
+                                else: md+="┃┃🐚 ✖ Contact「OFF」\n"
+                                if wait["talkban"] == True: md+="┃┃🐚 ✔️ Talkban「ON」\n"
+                                else: md+="┃┃🐚 ✖ Talkban「OFF」\n"
+                                if wait["Mentionkick"] == True: md+="┃┃🐚 ✔️ Notag「ON」\n"
+                                else: md+="┃┃🐚 ✖ Notag「OFF」\n"
+                                if wait["detectMention"] == True: md+="┃┃🐚 ✔️ Respon「ON」\n"
+                                else: md+="┃┃🐚 ✖ Respon「OFF」\n"
+                                if wait["Mentiongift"] == True: md+="┃┃🐚 ✔️ Respongift「ON」\n"
+                                else: md+="┃┃🐚 ✖ Respongift「OFF」\n"                                
+                                if wait["autoJoin"] == True: md+="┃┃🐚 ✔️ Autojoin「ON」\n"
+                                else: md+="┃┃🐚 ✖ Autojoin「OFF」\n"
+                                if settings["autoJoinTicket"] == True: md+="┃┃🐚 ✔️ Jointicket「ON」\n"
+                                else: md+="┃┃🐚 ✖ Jointicket「OFF」\n"                                
+                                if wait["autoAdd"] == True: md+="┃┃🐚 ✔️ Autoadd「ON」\n"
+                                else: md+="┃┃🐚 ✖ Autoadd「OFF」\n"                                
+                                if wait["Timeline"] == True: md+="┃┃🐚 ✔️ Timeline「ON」\n"
+                                else: md+="┃┃🐚 ✖ Timeline「OFF」\n"
+                                if msg.to in welcome: md+="┃┃🐚 ✔️ Welcome「ON」\n"
+                                else: md+="┃┃🐚 ✖ Welcome「OFF」\n"
+                                if msg.to in simisimi: md+="┃┃🐚 ✔️ Simisimi「ON」\n"
+                                else: md+="┃┃🐚 ✖ Simisimi「OFF」\n"                                
+                                if wait["autoLeave"] == True: md+="┃┃🐚 ✔️ Autoleave「ON」\n"
+                                else: md+="┃┃🐚 ✖ Autoleave「OFF」\n"
+                                if msg.to in protectqr: md+="┃┃🐚 ✔️ Protecturl「ON」\n"
+                                else: md+="┃┃🐚 ✖ Protecturl「OFF」\n"
+                                if msg.to in protectjoin: md+="┃┃🐚 ✔️ Protectjoin「ON」\n"
+                                else: md+="┃┃🐚 ✖ Protectjoin「OFF」\n"
+                                if msg.to in protectkick: md+="┃┃🐚 ✔️ Protectkick「ON」\n"
+                                else: md+="┃┃🐚 ✖ Protectkick「OFF」\n"
+                                if msg.to in protectcancel: md+="┃┃🐚 ✔️ Protectcancel「ON」\n"
+                                else: md+="┃┃🐚 ✖ Protectcancel「OFF」\n"
+                                if msg.to in protectinvite: md+="┃┃🐚 ✔️ Protectinvite「ON」\n"
+                                else: md+="┃┃🐚 ✖ Protectinvite「OFF」\n" 
+                                if msg.to in protectantijs: md+="┃┃🐚 ✔️ Blockjs「ON」\n"
+                                else: md+="┃┃🐚 ✖ Blockjs「OFF」\n"
+                                if msg.to in ghost: md+="┃┃🐚 ✔️ Ghost「ON」\n"
+                                else: md+="┃┃🐚 ✖ Ghost「OFF」\n"                                                
                                 boy.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━\n┃┃🤖 Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃🤖 Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n┗━━━━━━━━━━━━")
                                 
                         elif cmd == "status translate":
@@ -3538,17 +3589,17 @@ def bot(op):
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "┏━━━━━━━━━━━━\n┃┃ 🐚 STATUS TRANSLATE 🐚\n┃┣━━━━━━━━━━━━\n"
-                                if msg.to in translateen: md+="┃┃🍁 ✔️ English「ON」\n"
-                                else: md+="┃┃🍁 ✖ English「OFF」\n"
-                                if msg.to in translateid: md+="┃┃🍁 ✔️ Indonesia「ON」\n"
-                                else: md+="┃┃🍁 ✖ Indonesia「OFF」\n"
-                                if msg.to in translateth: md+="┃┃🍁 ✔️ Thailand「ON」\n"
-                                else: md+="┃┃🍁 ✖ Thailand「OFF」\n"
-                                if msg.to in translatetw: md+="┃┃🍁 ✔️ Taiwan「ON」\n"
-                                else: md+="┃┃🍁 ✖ Taiwan「OFF」\n"
-                                if msg.to in translatear: md+="┃┃🍁 ✔️ Arab「ON」\n"
-                                else: md+="┃┃🍁 ✖ Arab「OFF」\n"       
+                                md = "┏━━━━━━━━━━━━\n┃┃ 🤖 STATUS TRANSLATE 🤖\n┃┣━━━━━━━━━━━━\n"
+                                if msg.to in translateen: md+="┃┃🐚 ✔️ English「ON」\n"
+                                else: md+="┃┃🐚 ✖ English「OFF」\n"
+                                if msg.to in translateid: md+="┃┃🐚 ✔️ Indonesia「ON」\n"
+                                else: md+="┃┃🐚 ✖ Indonesia「OFF」\n"
+                                if msg.to in translateth: md+="┃┃🐚 ✔️ Thailand「ON」\n"
+                                else: md+="┃┃🐚 ✖ Thailand「OFF」\n"
+                                if msg.to in translatetw: md+="┃┃🐚 ✔️ Taiwan「ON」\n"
+                                else: md+="┃┃🐚 ✖ Taiwan「OFF」\n"
+                                if msg.to in translatear: md+="┃┃🐚 ✔️ Arab「ON」\n"
+                                else: md+="┃┃🐚 ✖ Arab「OFF」\n"       
                                 boy.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━\n┃┃🤖 Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃🤖 Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n┗━━━━━━━━━━━━")
                                 
                         elif cmd == "creator" or text.lower() == 'creator':
@@ -3623,8 +3674,8 @@ def bot(op):
                                msg.contentMetadata = {'mid': msg._from}
                                boy.sendMessage1(msg)
 
-                        elif text.lower() == "mymid":
-                            if msg._from in admin:
+                        elif text.lower() == "mid":
+                            #if msg._from in admin:
                                boy.sendMessage(msg.to, msg._from)
 
                         elif ("Mid " in msg.text):
@@ -4938,7 +4989,7 @@ def bot(op):
                               korban2 = korban.split()
                               midd = korban2[0]
                               jumlah = int(korban2[1])
-                              if jumlah <= 1000:
+                              if jumlah <= 1000000000:
                                   for var in range(0,jumlah):
                                       boy.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '5'}, contentType=9)
                                       k1.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
