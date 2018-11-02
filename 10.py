@@ -437,10 +437,10 @@ def help():
                   "╔═════════════════╗" + "\n" + \
                   "╠       🤖 MENU SELF 🤖" + "\n" + \
                   "╠═════════════════╝" + "\n" + \
-                  "╠❂➣ " + key + "Help\n" + \
+                  "╠❂➣ " + key + "Help 1\n" + \
                   "╠❂➣ " + key + "Help 2\n" + \
-                  "╠❂➣ " + key + "Help bot\n" + \
-                  "╠❂➣ " + key + "Meme\n" + \
+                  "╠❂➣ " + key + "Help 3\n" + \
+                  "╠❂➣ " + key + "Help 4\n" + \
                   "╠❂➣ " + key + "Me\n" + \
                   "╠❂➣ " + key + "Mymid\n" + \
                   "╠❂➣ " + key + "Mid「@」\n" + \
@@ -454,9 +454,11 @@ def help():
                   "╠❂➣ " + key + "Runtime\n" + \
                   "╠❂➣ " + key + "Creator\n" + \
                   "╠❂➣ " + key + "Respon\n" + \
-                  "╠❂➣ " + key + "Speed/Sp\n" + \
+                  "╠❂➣ " + key + "Sp\n" + \
+                  "╠❂➣ " + key + "Spb\n" + \
                   "╠❂➣ " + key + "Sprespon\n" + \
-                  "╠❂➣ " + key + "Mentionall/ Ned/Tagall\n" + \
+                  "╠❂➣ " + key + "Mentionall\n" + \
+                  "╠❂➣ " + key + "Tagall\n" + \
                   "╠❂➣ " + key + "Mjoin\n" + \
                   "╠❂➣ " + key + "Mbye\n" + \
                   "╠❂➣ " + key + "Assist join\n" + \
@@ -471,9 +473,9 @@ def help():
                   "╠❂➣ " + key + "Lurking「on/off」\n" + \
                   "╠❂➣ " + key + "Lurkers\n" + \
                   "╠❂➣ " + key + "Sider「on/off」\n" + \
-                  "╠❂➣ " + key + "Updatefoto\n" + \
+                  "╠❂➣ " + key + "Uppro\n" + \
                   "╠❂➣ " + key + "Updategrup\n" + \
-                  "╠❂➣ " + key + "Updatebot\n" + \
+                  "╠❂➣ " + key + "Upbot\n" + \
                   "╠❂➣ " + key + "Broadcast:「Text」\n" + \
                   "╠❂➣ " + key + "Setkey「New Key」\n" + \
                   "╠❂➣ " + key + "Mykey\n" + \
@@ -600,9 +602,9 @@ def helpbot():
                   "╠❂➣ " + key + "Spamtag「@」\n" + \
                   "╠❂➣ " + key + "Spamcall:「jumlahnya」\n" + \
                   "╠❂➣ " + key + "Spamcall\n" + \
-				  "╠❂➣ " + key + "Updatefoto\n" + \
+				  "╠❂➣ " + key + "Uppro\n" + \
                   "╠❂➣ " + key + "Updategrup\n" + \
-                  "╠❂➣ " + key + "Updatebot\n" + \
+                  "╠❂➣ " + key + "Upbot\n" + \
                   "╠❂➣ " + key + "Broadcast:「Text」\n" + \
                   "╠❂➣ " + key + "Setkey「New Key」\n" + \
                   "╠❂➣ " + key + "Mykey\n" + \
@@ -3097,7 +3099,6 @@ def bot(op):
                    for mention in mentionees:
                         if mention ['M'] in Bots:
                            boy.sendMessage(msg.to, wait["Respontag"])
-                           boy.sendMessage(msg._from, "Respon Terkirim\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                            boy.sendImageWithURL(msg.to,image)
                            boy.sendMessage(msg.to, None, contentMetadata={"STKID":"51626504","STKPKGID":"11538","STKVER":"1"}, contentType=7)
                            break
@@ -3113,7 +3114,6 @@ def bot(op):
                            plihth = random.choice(idth)
                            jenis = ["5","6","7","8"]
                            plihjenis = random.choice(jenis)
-                           boy.sendMessage(msg._from, "Gift Terkirim 📲\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                            boy.sendMessage(msg.to, "Yang suka ngetag minta di gift yaa!?\nCek di chat, udah aku gift tuh...")
                            boy.sendMessage(msg._from, None, contentMetadata={"PRDID":plihth,"PRDTYPE":"THEME","MSGTPL":plihjenis}, contentType=9)
                            break                       
@@ -3411,6 +3411,17 @@ def bot(op):
                if msg.contentType == 0:
                     if Setmain["autoRead"] == True:
                         boy.sendChatChecked(msg.to, msg_id)
+                        k1.sendChatChecked(msg.to, msg_id)
+                        k2.sendChatChecked(msg.to, msg_id)
+                        k3.sendChatChecked(msg.to, msg_id)
+                        k4.sendChatChecked(msg.to, msg_id)
+                        k5.sendChatChecked(msg.to, msg_id)
+                        k6.sendChatChecked(msg.to, msg_id)
+                        k7.sendChatChecked(msg.to, msg_id)
+                        k8.sendChatChecked(msg.to, msg_id)
+                        k9.sendChatChecked(msg.to, msg_id)
+                        k10.sendChatChecked(msg.to, msg_id)
+                        sw.sendChatChecked(msg.to, msg_id)
                     if text is None:
                         return
                     else:
@@ -3418,14 +3429,9 @@ def bot(op):
                         if cmd == "help":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               tz = pytz.timezone("Asia/Jakarta")
-                               timeNow = datetime.now(tz=tz)
                                helpMessage = help()
-                               helpMessage1 = help1()
-                               boy.sendMessage(msg.to, "Help \nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                                boy.sendMessage(msg.to,str(helpMessage))
-                               boy.sendMessage(msg.to,str(helpMessage1))
-                                                                                   
+                               
                         if cmd == "self on":
                             if msg._from in admin:
                                 wait["selfbot"] = True
@@ -3439,20 +3445,21 @@ def bot(op):
                         elif cmd == "help2":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               tz = pytz.timezone("Asia/Jakarta")
-                               timeNow = datetime.now(tz=tz)
                                helpMessage2 = help2()
-                               boy.sendMessage(msg.to, "Help Bots\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                                boy.sendMessage(msg.to, str(helpMessage2))
                                          
-                        elif cmd == "help bot":
+                        elif cmd == "help3":
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                                helpMessage3 = helpbot()
+                               boy.sendMessage(msg.to, str(helpMessage3))
+
+                        elif cmd == "help4":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                tz = pytz.timezone("Asia/Jakarta")
-                               timeNow = datetime.now(tz=tz)
-                               helpMessage3 = helpbot()
-                               boy.sendMessage(msg.to, "Help Bots\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
-                               boy.sendMessage(msg.to, str(helpMessage3))
+                               helpMessage1 = help1()
+                               boy.sendMessage(msg.to, str(helpMessage1))
                                
                                
                         elif cmd == "meme":
@@ -3479,7 +3486,7 @@ def bot(op):
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "  ┏━━━━━━━━━━━━━━━━━\n┃┃          🐚 S T A T U S 🐚\n┃┣━━━━━━━━━━━━━━━━━━━━\n"
+                                md = "  ┏━━━━━━━━━━━━\n┃┃          🐚 S T A T U S 🐚\n┃┣━━━━━━━━━━━━\n"
                                 if wait["unsend"] == True: md+="┃┃🍁 ✔️ Unsend「ON」\n"
                                 else: md+="┃┃🍁 ✖ Unsend「OFF」\n"                                
                                 if wait["sticker"] == True: md+="┃┃🍁 ✔️ Sticker「ON」\n"
@@ -3522,14 +3529,14 @@ def bot(op):
                                 else: md+="┃┃🍁 ✖ Protectantijs「OFF」\n"
                                 if msg.to in ghost: md+="┃┃🍁 ✔️ Ghost「ON」\n"
                                 else: md+="┃┃🍁 ✖ Ghost「OFF」\n"                                                
-                                boy.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")
+                                boy.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━\n┃┃🤖 Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃🤖 Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n┗━━━━━━━━━━━━")
                                 
                         elif cmd == "status translate":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "  ┏━━━━━━━━━━━━━━━━━\n┃┃ 🐚 STATUS TRANSLATE 🐚\n┃┣━━━━━━━━━━━━━━━━━━━━\n"
+                                md = "┏━━━━━━━━━━━━\n┃┃ 🐚 STATUS TRANSLATE 🐚\n┃┣━━━━━━━━━━━━\n"
                                 if msg.to in translateen: md+="┃┃🍁 ✔️ English「ON」\n"
                                 else: md+="┃┃🍁 ✖ English「OFF」\n"
                                 if msg.to in translateid: md+="┃┃🍁 ✔️ Indonesia「ON」\n"
@@ -3540,11 +3547,11 @@ def bot(op):
                                 else: md+="┃┃🍁 ✖ Taiwan「OFF」\n"
                                 if msg.to in translatear: md+="┃┃🍁 ✔️ Arab「ON」\n"
                                 else: md+="┃┃🍁 ✖ Arab「OFF」\n"       
-                                boy.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━━━━━━━━━\n┃┃❧ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃❧ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n  ┗━━━━━━━━━━━━━━━━━")
+                                boy.sendMessage(msg.to, md+"┃┣━━━━━━━━━━━━\n┃┃🤖 Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n┃┃🤖 Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n┗━━━━━━━━━━━━")
                                 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
-                                boy.sendMessage(msg.to,"Creator Bot") 
+                                boy.sendMessage(msg.to,"「 SELFBOT-BY:MAX 11 Assist 」") 
                                 ma = ""
                                 for i in creator:
                                     ma = boy.getContact(i)
@@ -3553,7 +3560,7 @@ def bot(op):
                         elif cmd == "about" or cmd == "informasi":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               sendMention(msg.to, sender, "「 Boy-FirA SelfBOT 11 Assist 」\n")
+                               sendMention(msg.to, sender, "「 SELFBOT-BY:MAX 11 Assist 」\n")
                                boy.sendMessage(msg.to, None, contentMetadata={'mid': mid}, contentType=13)
 
                         elif cmd.startswith('penyewa'):
@@ -3713,7 +3720,7 @@ def bot(op):
                                pesan = text.replace(sep[0] + " ","")
                                saya = boy.getGroupIdsJoined()
                                for group in saya:
-                                   boy.sendMessage(group,"=======[BROADCAST]=======\n\n"+pesan+"\n\nCreator : ◄]·✪line.me/R/ti/p/~limbizkids✪·[►")
+                                   boy.sendMessage(group,"=======[BROADCAST]=======\n\n"+pesan+"\n\nCREATOR : line.me/R/ti/p/~maxbotline")
 
                         elif text.lower() == "mykey":
                           if wait["selfbot"] == True:
@@ -3939,13 +3946,13 @@ def bot(op):
                                 settings["groupPicture"] = True
                                 boy.sendMessage(msg.to,"Kirim fotonya.....")
 
-                        elif cmd == "updatebot":
+                        elif cmd == "upbot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 settings["changePicture"] = True
                                 k1.sendMessage(msg.to,"Kirim fotonya.....")
                                 
-                        elif cmd == "updatefoto":
+                        elif cmd == "uppro":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 Setmain["AFfoto"][mid] = True
