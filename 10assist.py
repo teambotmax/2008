@@ -94,10 +94,10 @@ poll = LinePoll(k8)
 poll = LinePoll(k9)
 poll = LinePoll(k10)
 call = boy
-creator = ["ue6d8f9ef8f820fad9c65bbb5d1ec714b"]
-owner = ["ue6d8f9ef8f820fad9c65bbb5d1ec714b"]
-admin = ["ue6d8f9ef8f820fad9c65bbb5d1ec714b"]
-staff = ["ue6d8f9ef8f820fad9c65bbb5d1ec714b"]
+creator = ["uafd65893655c791f07c9ff31cbbc28d1"]
+owner = ["uafd65893655c791f07c9ff31cbbc28d1"]
+admin = ["uafd65893655c791f07c9ff31cbbc28d1"]
+staff = ["uafd65893655c791f07c9ff31cbbc28d1"]
 mid = boy.getProfile().mid
 Amid = k1.getProfile().mid
 Bmid = k2.getProfile().mid
@@ -431,12 +431,12 @@ def command(text):
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "╔═══════════════════════╗" + "\n" + \
-                  "      ◄]·❍✯͜͡Boy-FirA™️✯͜͡❂➣·[►" + "\n" + \
-                  "╚═══════════════════════╝" + "\n" + \
-                  "╔═══════════════════════╗" + "\n" + \
+    helpMessage = "╔══════════════════╗" + "\n" + \
+                  "   BY: SELFBOT-BY:MAX" + "\n" + \
+                  "╚══════════════════╝" + "\n" + \
+                  "╔══════════════════╗" + "\n" + \
                   "     ◄]·✪·Menu·✪·[►" + "\n" + \
-                  "╠═══════════════════════╝" + "\n" + \
+                  "╠══════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Help\n" + \
                   "╠❂➣ " + key + "Help 2\n" + \
                   "╠❂➣ " + key + "Help bot\n" + \
@@ -478,9 +478,9 @@ def help():
                   "╠❂➣ " + key + "Setkey「New Key」\n" + \
                   "╠❂➣ " + key + "Mykey\n" + \
                   "╠❂➣ " + key + "Resetkey\n" + \
-                  "╠═══════════════════════╗" + "\n" + \
-                  "      ◄]·❍✯͜͡Boy-FirA™️✯͜͡❂➣·[►" + "\n" + \
-                  "╚═══════════════════════╝" 
+                  "╠══════════════════╗" + "\n" + \
+                  "   BY: SELFBOT-BY:MAX" + "\n" + \
+                  "╚══════════════════╝" 
     return helpMessage
 
 def help1():
@@ -508,7 +508,7 @@ def help1():
                   "╠❂➣ " + key + "Spamcall:「jumlahnya」\n" + \
                   "╠❂➣ " + key + "Spamcall\n" + \
                   "╠═══════════════════════╗" + "\n" + \
-                  "      ◄]·❍✯͜͡Boy-FirA™️✯͜͡❂➣·[►" + "\n" + \
+                  "   BY: SELFBOT-BY:MAX" + "\n" + \
                   "╚═══════════════════════╝" 
     return helpMessage1
 
@@ -562,7 +562,7 @@ def help2():
                   "╠❂➣ " + key + "Listprotect\n" + \
                   "╠❂➣ Ketik「 Refresh 」Jika Sudah\n╠❂➣ Menggunakan Command Diatas...\n" + \
                   "╠═══════════════════════╗" + "\n" + \
-                  "      ◄]·❍✯͜͡Boy-FirA™️✯͜͡❂➣·[►" + "\n" + \
+                  "   BY: SELFBOT-BY:MAX" + "\n" + \
                   "╚═══════════════════════╝" 
     return helpMessage2
     
@@ -571,7 +571,7 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage3 = "╔═══════════════════════╗" + "\n" + \
-                  "     🍁🍁❍✯͜͡Boy-FirA™️✯͜͡❂➣ 🍁🍁" + "\n" + \
+                  "     🍁 BY: SELFBOT-BY:MAX 🍁" + "\n" + \
                   "╚═══════════════════════╝" + "\n" + \
                   "╔═══════════════════════╗" + "\n" + \
                   "     ◄]·✪·BOT·✪·[►" + "\n" + \
@@ -2951,10 +2951,10 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「 Gambar Dihapus 」\n❂➣ Pengirim : "
+                                xpesan =  "「 UNSEND MESSAGE 」\n❂➣ Pengirim : "
                                 ret_ = "❂➣ Nama Grup : {}".format(str(ginfo.name))
                                 ret_ += "\n❂➣ Waktu Ngirim : {}".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
-                                ret_ += "\n❂➣ By @Boy-FirA™️"
+                                ret_ += "\n❂➣ BY: SELFBOT-BY:MAX"
                                 ry = str(Boy.displayName)
                                 pesan = ''
                                 pesan2 = pesan+"@x \n"
@@ -2974,7 +2974,7 @@ def bot(op):
                                 ret_ += "\n❂➣ Nama Grup : {}".format(str(ginfo.name))
                                 ret_ += "\n❂➣ Waktu Ngirim : {}".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
                                 ret_ += "\n❂➣Pesannya : {}".format(str(msg_dict[msg_id]["text"]))
-                                ret_ += "\n❂➣ By @Boy-FirA™️"
+                                ret_ += "\n❂➣ BY: SELFBOT-BY:MAX"
                                 boy.sendMessage(at, str(ret_))
                         del msg_dict[msg_id]
                 except Exception as e:
@@ -2993,7 +2993,7 @@ def bot(op):
                                 ret_ += "❂➣ Pengirim : {}".format(str(Boy.displayName))
                                 ret_ += "\n❂➣ Nama Grup : {}".format(str(ginfo.name))
                                 ret_ += "\n❂➣ Waktu Ngirim : {}".format(dt_to_str(cTime_to_datetime(msg_dict1[msg_id]["createdTime"])))
-                                ret_ += "\n❂➣ By @Boy-FirA™️"
+                                ret_ += "\n❂➣ BY: SELFBOT-BY:MAX"
                                 ret_ += "{}".format(str(msg_dict1[msg_id]["text"]))
                                 boy.sendMessage(at, str(ret_))
                                 boy.sendImage(at, msg_dict1[msg_id]["data"])
@@ -3139,7 +3139,7 @@ def bot(op):
                         contact = boy.getContact(msg.contentMetadata["mid"])
                         path = boy.getContact(msg.contentMetadata["mid"]).picturePath
                         image = 'http://dl.profile.line.naver.jp'+path
-                        boy.sendMessage(msg.to,"⏩ Nama : " + msg.contentMetadata["displayName"] + "\n⏩ MID : " + msg.contentMetadata["mid"] + "\n⏩ Status : " + contact.statusMessage + "\n⏩ Picture URL : http://dl.profile.line-cdn.net/" + contact.pictureStatus)
+                        boy.sendMessage(msg.to,"🤖 Nama : " + msg.contentMetadata["displayName"] + "\n🤖 MID : " + msg.contentMetadata["mid"] + "\n🤖 Status : " + contact.statusMessage + "\n🤖 Picture URL : http://dl.profile.line-cdn.net/" + contact.pictureStatus)
                         boy.sendImageWithURL(msg.to, image)
 
 
@@ -4128,7 +4128,7 @@ def bot(op):
                                 sw.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
 #===========BOT UPDATE============#
-                        elif cmd == "mention" or text.lower() == 'ned':
+                        elif cmd == "tag" or text.lower() == 'ned':
                           if msg._from in admin:
                                group = boy.getGroup(msg.to)
                                nama = [contact.mid for contact in group.members]
@@ -4206,7 +4206,7 @@ def bot(op):
                                     a = a + 1
                                     end = '\n'
                                     ma += str(a) + ". " +boy.getContact(m_id).displayName + "\n"
-                                boy.sendMessage(msg.to,"⏩ BOT Boy-FirA™️\n\n"+ma+"\nTotal「%s」BOT" %(str(len(Bots))))
+                                boy.sendMessage(msg.to,"🤖 LIST BOT\n\n"+ma+"\nTotal「%s」BOT" %(str(len(Bots))))
 
                         elif cmd == "listadmin":
                           if wait["selfbot"] == True:
@@ -4229,7 +4229,7 @@ def bot(op):
                                     c = c + 1
                                     end = '\n'
                                     mc += str(c) + ". " +boy.getContact(m_id).displayName + "\n"
-                                boy.sendMessage(msg.to,"⏩ Admin Boy-FirA™️ BOT\n\n⏩Creator BOT:\n"+ma+"\n⏩Admin:\n"+mb+"\n⏩Staff:\n"+mc+"\n⏩Total「%s」❍✯͜͡Boy-FirA™️✯͜͡❂➣" %(str(len(owner)+len(admin)+len(staff))))
+                                boy.sendMessage(msg.to,"🤖 LIST Admin\n\n🤖 Creator BOT:\n"+ma+"\n🤖 Admin:\n"+mb+"\n🤖 Staff:\n"+mc+"\n🤖 Total「%s」SELFBOT-BY:MAX" %(str(len(owner)+len(admin)+len(staff))))
 
                         elif cmd == "listprotect":
                           if wait["selfbot"] == True:
@@ -4269,7 +4269,7 @@ def bot(op):
                                     e = e + 1
                                     end = '\n'
                                     me += str(e) + ". " +boy.getGroup(group).name + "\n"                                    
-                                boy.sendMessage(msg.to,"⏩ BOT Protection\n\n⏩ PROTECT URL :\n"+ma+"\n⏩ PROTECT KICK :\n"+mb+"\n⏩ PROTECT JOIN :\n"+md+"\n⏩ PROTECT CANCEL:\n"+mc+"\n⏩ PROTECT INVITE :\n"+me+"\nTotal「%s」Protect yang aktif" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite))))
+                                boy.sendMessage(msg.to,"🤖 BOT Protection\n\n🤖 PROTECT URL :\n"+ma+"\n🤖 PROTECT KICK :\n"+mb+"\n🤖 PROTECT JOIN :\n"+md+"\n🤖 PROTECT CANCEL:\n"+mc+"\n🤖 PROTECT INVITE :\n"+me+"\nTotal「%s」Protect yang aktif" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite))))
 
                         elif cmd == "respon":
                           if wait["selfbot"] == True:
@@ -4306,7 +4306,7 @@ def bot(op):
                                     pass
                                 
     
-                        elif cmd == "join":
+                        elif cmd == "mjoin":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = boy.getGroup(msg.to)
@@ -4329,7 +4329,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 k1.updateGroup(G)
 
-                        elif cmd == "bye":
+                        elif cmd == "mbye":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = boy.getGroup(msg.to)
@@ -4407,6 +4407,30 @@ def bot(op):
                                boy.sendMessage(msg.to, "Progres speed...")
                                elapsed_time = time.time() - start
                                boy.sendMessage(msg.to, "{} Detik".format(str(elapsed_time)))
+
+                        elif cmd == "speedbot" or cmd == "spb":
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                               start = time.time()
+                               k1.sendMessage(msg.to, "Progres speed...")
+                               elapsed_time = time.time() - start
+                               k2.sendMessage(msg.to, "{} Detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               k3.sendMessage(msg.to, "{} Detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               k4.sendMessage(msg.to, "{} Detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               k5.sendMessage(msg.to, "{} Detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               k6.sendMessage(msg.to, "{} Detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               k7.sendMessage(msg.to, "{} Detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               k8.sendMessage(msg.to, "{} Detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               k9.sendMessage(msg.to, "{} Detik".format(str(elapsed_time)))
+                               elapsed_time = time.time() - start
+                               k10.sendMessage(msg.to, "{} Detik".format(str(elapsed_time)))
 
                         elif cmd == "lurking on":
                           if wait["selfbot"] == True:
