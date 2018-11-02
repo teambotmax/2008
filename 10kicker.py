@@ -82,7 +82,7 @@ sw = LineClient()
 #sw = LineClient(token["sw"])
 sw.log("Auth Token : " + str(sw.authToken))
 
-print ("Sukses Bossa")
+print ("BY: SELFBOT-BY:MAX")
 
 #ubah mid di dalem admin,owner,creator.json dengan mid kalian
 poll = LinePoll(boy)
