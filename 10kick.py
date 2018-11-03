@@ -29,52 +29,52 @@ boy.log("Auth Token : " + str(boy.authToken))
 
 k1 = LineClient()
 #K1 = LineClient(token["k1"])
-channel = LineChannel(k1,k1.server.CHANNEL_ID['LINE_TIMELINE'])
+channel1 = LineChannel(k1,k1.server.CHANNEL_ID['LINE_TIMELINE'])
 k1.log("Auth Token : " + str(k1.authToken))
 
 k2 = LineClient()
 #K2 = LineClient(token["k2"])
-channel = LineChannel(k2,k2.server.CHANNEL_ID['LINE_TIMELINE'])
+channel2 = LineChannel(k2,k2.server.CHANNEL_ID['LINE_TIMELINE'])
 k2.log("Auth Token : " + str(k2.authToken))
 
 k3 = LineClient()
 #K3 = LineClient(token["k3"])
-channel = LineChannel(k3,k3.server.CHANNEL_ID['LINE_TIMELINE'])
+channel3 = LineChannel(k3,k3.server.CHANNEL_ID['LINE_TIMELINE'])
 k3.log("Auth Token : " + str(k3.authToken))
 
 k4 = LineClient()
 #K4 = LineClient(token["k4"])
-channel = LineChannel(k4,k4.server.CHANNEL_ID['LINE_TIMELINE'])
+channel4 = LineChannel(k4,k4.server.CHANNEL_ID['LINE_TIMELINE'])
 k4.log("Auth Token : " + str(k4.authToken))
 
 k5 = LineClient()
 #K5 = LineClient(token["k5"])
-channel = LineChannel(k5,k5.server.CHANNEL_ID['LINE_TIMELINE'])
+channel5 = LineChannel(k5,k5.server.CHANNEL_ID['LINE_TIMELINE'])
 k5.log("Auth Token : " + str(k5.authToken))
 
 k6 = LineClient()
 #K6 = LineClient(token["k6"])
-channel = LineChannel(k6,k6.server.CHANNEL_ID['LINE_TIMELINE'])
+channel6 = LineChannel(k6,k6.server.CHANNEL_ID['LINE_TIMELINE'])
 k6.log("Auth Token : " + str(k6.authToken))
 
 k7 = LineClient()
 #K7 = LineClient(token["k7"])
-channel = LineChannel(k7,k7.server.CHANNEL_ID['LINE_TIMELINE'])
+channel7 = LineChannel(k7,k7.server.CHANNEL_ID['LINE_TIMELINE'])
 k7.log("Auth Token : " + str(k7.authToken))
 
 k8 = LineClient()
 #K8 = LineClient(token["k8"])
-channel = LineChannel(k8,k8.server.CHANNEL_ID['LINE_TIMELINE'])
+channel8 = LineChannel(k8,k8.server.CHANNEL_ID['LINE_TIMELINE'])
 k8.log("Auth Token : " + str(k8.authToken))
 
 k9 = LineClient()
 #K9 = LineClient(token["k9"])
-channel = LineChannel(k9,k9.server.CHANNEL_ID['LINE_TIMELINE'])
+channel9 = LineChannel(k9,k9.server.CHANNEL_ID['LINE_TIMELINE'])
 k9.log("Auth Token : " + str(k9.authToken))
 
 k10 = LineClient()
 #K10 = LineClient(token["k10"])
-channel = LineChannel(k10,k10.server.CHANNEL_ID['LINE_TIMELINE'])
+channel10 = LineChannel(k10,k10.server.CHANNEL_ID['LINE_TIMELINE'])
 k10.log("Auth Token : " + str(k10.authToken))
 
 sw = LineClient()
@@ -445,6 +445,7 @@ def help():
                   "╠❂͜͡☬➣ " + key + "Mid\n" + \
                   "╠❂͜͡☬➣ " + key + "Mid「@」\n" + \
                   "╠❂͜͡☬➣ " + key + "Info「@」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Nk「@」\n" + \
                   "╠❂͜͡☬➣ " + key + "Kick「@」\n" + \
                   "╠❂͜͡☬➣ " + key + "Mybot\n" + \
                   "╠❂͜͡☬➣ " + key + "Status\n" + \
@@ -3518,10 +3519,7 @@ def bot(op):
                         elif cmd == "meme":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               tz = pytz.timezone("Asia/Jakarta")
-                               timeNow = datetime.now(tz=tz)
                                helpMessage4 = infomeme()
-                               boy.sendMessage(msg.to, "Help Fun\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
                                boy.sendMessage(msg.to, str(helpMessage4))
                                
                         if cmd == "unsend on":
@@ -3968,7 +3966,7 @@ def bot(op):
                                    k1.updateGroup(X)
                                    k1.sendMessage(msg.to, "Url Closed")
 
-                        elif cmd == "urlgrup":
+                        elif cmd == "url grup":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 if msg.toType == 2:
@@ -4436,7 +4434,7 @@ def bot(op):
                                         k10.leaveGroup(i)
                                         boy.sendMessage(to,"Berhasil keluar dari grup " +h)
 
-                        elif cmd == "kicker join":
+                        elif cmd == "ghost join":
                             if msg._from in admin:
                                 G = boy.getGroup(msg.to)
                                 ginfo = boy.getGroup(msg.to)
@@ -4449,7 +4447,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 sw.updateGroup(G)
 
-                        elif cmd == "kicker bye":
+                        elif cmd == "ghost bye":
                             if msg._from in admin:
                                 G = boy.getGroup(msg.to)
                                 sw.leaveGroup(msg.to)
@@ -5002,6 +5000,7 @@ def bot(op):
                                       k8.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
                                       k9.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
                                       k10.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
+                                      sw.sendMessage(midd, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '6'}, contentType=9)
 
                         elif 'Spam: ' in msg.text:
                           if wait["selfbot"] == True:
@@ -5014,14 +5013,32 @@ def bot(op):
                                   for var in range(0,jumlah):
                                       boy.sendMessage(midd, str(Setmain["AFmessage1"]))
                                       k1.sendMessage(midd, str(Setmain["AFmessage1"]))
+                                      k2.sendMessage(midd, str(Setmain["AFmessage1"]))
+                                      k3.sendMessage(midd, str(Setmain["AFmessage1"]))
+                                      k4.sendMessage(midd, str(Setmain["AFmessage1"]))
+                                      k5.sendMessage(midd, str(Setmain["AFmessage1"]))
+                                      k6.sendMessage(midd, str(Setmain["AFmessage1"]))
+                                      k7.sendMessage(midd, str(Setmain["AFmessage1"]))
+                                      k8.sendMessage(midd, str(Setmain["AFmessage1"]))
+                                      k9.sendMessage(midd, str(Setmain["AFmessage1"]))
+                                      k10.sendMessage(midd, str(Setmain["AFmessage1"]))
+                                      sw.sendMessage(midd, str(Setmain["AFmessage1"]))
 
-                                  
                         elif 'Mybottoken' in msg.text:
                           if wait["selfbot"] == True:
                            if msg._from in creator:
-                               boy.sendMessage(msg.to,"Boy-FirA\n"+boy.authToken)
-                               boy.sendMessage(msg.to,"K1\n"+k1.authToken)
-
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX\n"+boy.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 1\n"+k1.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 2\n"+k2.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 3\n"+k3.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 4\n"+k4.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 5\n"+k5.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 6\n"+k6.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 7\n"+k7.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 8\n"+k8.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 9\n"+k9.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 10\n"+k10.authToken)
+                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX Ghost\n"+sw.authToken)
 #==============================================================================# 
                        
 
@@ -5033,17 +5050,17 @@ def bot(op):
                                        msgs = "Simi-simi sudah aktif"
                                   else:
                                        simisimi.append(msg.to)
-                                       ginfo = k1.getGroup(msg.to)
+                                       ginfo = boy.getGroup(msg.to)
                                        msgs = "Simi-simi Diaktifkan\nDi Group : " +str(ginfo.name)
-                                  k1.sendMessage(msg.to, "「Diaktifkan」\n" + msgs)
+                                  boy.sendMessage(msg.to, "「Diaktifkan」\n" + msgs)
                               elif spl == 'off':
                                     if msg.to in simisimi:
                                          simisimi.remove(msg.to)
-                                         ginfo = k1.getGroup(msg.to)
+                                         ginfo = boy.getGroup(msg.to)
                                          msgs = "Simi-simi Dinonaktifkan\nDi Group : " +str(ginfo.name)
                                     else:
                                          msgs = "Simi-simi Sudah Tidak Aktif"
-                                    k1.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs) 
+                                    boy.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs) 
                                     
                         elif 'Autotrans th-' in msg.text:
                               spl = msg.text.replace('Autotrans th-','')
@@ -5161,7 +5178,6 @@ def bot(op):
                                     boy.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)
                                     
 #===========Protection============#                                    
-
                         elif 'Protecturl ' in msg.text:
                            if msg._from in admin:
                               spl = msg.text.replace('Protecturl ','')
