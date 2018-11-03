@@ -3505,16 +3505,14 @@ def bot(op):
                         elif cmd == "help3":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                                helpMessage3 = helpbot()
+                               helpMessage3 = helpbot()
                                boy.sendMessage(msg.to, str(helpMessage3))
 
                         elif cmd == "help4":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               tz = pytz.timezone("Asia/Jakarta")
                                helpMessage1 = help1()
                                boy.sendMessage(msg.to, str(helpMessage1))
-                               
                                
                         elif cmd == "meme":
                           if wait["selfbot"] == True:
