@@ -3,9 +3,9 @@
     "restartBot": {},
     "userAgent": {},
     "keyCommand": "",
-    "namecreator": "Boy-FirA",
-    "autoAdd": false,
-    "autoJoin": false,
+    "namecreator": "SELFBOT-BY:MAX",
+    "autoAdd": true,
+    "autoJoin": true,
     "autoReject": false,
     "autoLeave": true,
     "autoRead": false,
@@ -32,12 +32,12 @@
     "Boy-FirAgreet": {},
     "Boy-FirAlimit": 1,
     "Boy-FirAmessage": "Hallo...",
-    "Boy-FirAmessage1": "Creator ?]·?line.me/R/ti/p/~limbizkids?·[?",
+    "Boy-FirAmessage1": "Creator ?]Â·?line.me/R/ti/p/~maxbotline?Â·[?",
     "Boy-FirAprotcancel": {},
     "Boy-FirAprotinvite": {},
     "Boy-FirAprotkick": {},
     "Boy-FirAprotqr": {},
     "Boy-FirAreadMember": {},
     "Boy-FirAreadPoint": {},
-    "Boy-FirAwblacklist": false
+    "Boy-FirAwblacklist": true
 }
